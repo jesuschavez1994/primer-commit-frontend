@@ -1,0 +1,198 @@
+/* For mobile phones: */
+[class*="grid_"] {
+  width: 100%;
+    float: left;
+    display: inline;
+}
+.container_12{ 
+  position: relative; 
+  width: 100%; 
+  margin-top:0px; 
+  padding: 0; 
+ 
+}
+	.grid_1,
+	.grid_2,
+	.grid_22,
+	.grid_222,
+	.grid_3,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12,
+	.grid_121,
+	 .grid_2_5imagenes
+	{ float: left; display: inline;}
+	 .container_12 .grid_2_perfil			{  box-sizing: border-box; max-height: 500px;min-height: 100px; margin-bottom:50px; display: flex;justify-content: center;
+  align-items: center; }
+      .container_12 .grid_2_perfil .grid_12perfil2	{ width: 90%;     max-height: 500px;min-height: 100px;  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);border-radius:10px;}
+     
+
+    /* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) {
+	
+		.container_12 .grid_2_perfil{  width: 33.3333333%;}
+.grid_5     { width: 100%;}
+ /* .grid_6     { width: 100%;}*/
+.grid_8     { width: 100%;}
+.grid_12      {  width: 99.9999999999%; }
+    }
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  .container_12 .grid_2_perfil{  width: 33.3333333%;}
+.grid_5     { width: 100%;}
+.grid_6     { width: 50%;}
+
+.grid_8     { width: 100%;}
+.grid_12.contenedor_de_productos_buscando_el_producto{
+  width:80%;
+}
+.grid_12      {  width: 99.9999999999%; }
+}
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+.container_12 .grid_2_perfil{  width: 50%;}
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+ .container_12 .grid_2_perfil{  width: 50%;}
+  
+}
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+@media (min-width: 601px) and (max-width: 721px) {
+  .container_12 .grid_3			{ width: 100%;height:80px;}
+ 
+}
+  @media (min-width: 90px) and (max-width: 600px) {
+    .container_12 .grid_3			{ width: 100%;height:80px;}
+    
+    
+    .Estilos_icono_mas{
+      transform: translateY(-5px);
+    }
+  }
+    @media (min-width:601px) and (max-width:720px){
+      .nuevo_producto.grid_3{
+       display: flex;
+       justify-content: center;
+       }
+     }
+     @media (min-width:721px) and (max-width:849px){
+      .container_12 .grid_3{ width:100%;height:80px;}
+     }
+     @media (min-width:850px) and (max-width:1200px){
+      .grid_12.flex_perfil.emp_box{
+        flex-direction: row;
+      }
+     }
+@media (min-width: 1025px) {
+  #campo .grid_222{ float: left; display: inline; margin-left: 5px; margin-right: 3px; margin-bottom: 100px }
+  /* Nested Column Classes */
+  .container_12 .alpha{ margin-left: 0; }
+  .container_12 .omega{ margin-right: 0; }
+  /* Base Grid */
+  .container_12 .grid_1	img.grid_1{ width: 61px;  }
+  .container_12 .grid_2{  width: 16.6666666667%;  }
+  .container_12 .grid_2_5imagenes{
+    width: 20%;
+    padding:2px;  
+    box-sizing: border-box; 
+    margin-top: 10px;  
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+  .container_12 .grid_2_perfil{  width: 20%;  }
+  .grid_2_tienda{  width: 25%;  }
+  .container_12 .grid_22{ width: 14%; max-width:175px; min-width:175px; }
+  .container_12 .grid_3			{ width: 25%; }
+  .container_12 .grid_3_img_perfil{ width: 20%; }
+  .container_12 .grid_4			{width: 50%; }
+  .container_12 .grid_5			{ width: 41.6666666667%; }
+  .container_12 .grid_6			{ width: 50%;}
+  .container_12 .grid_7			{ width: 58.33333333333%; }
+  .container_12 .grid_8			{ width: 66.6666666667%;}
+  .container_12 .grid_9			{ width: 75.0%;          }
+  .container_12 .grid_10			{ width: 61.3333333333%; }
+  .container_12 .grid_11			{ width: 91.6666666667%; }
+  .container_12 .grid_12			{  width: 99.9999999999%; }
+  .container_12 .grid_12_productos			{  float: left; display: inline; width: 90%; margin-left: 5%; margin-right: 5%;min-height: 500px}
+  .container_12 .grid_121			{ width: 99.9999999999%; }
+  #campo .grid_222 				{ width: 14%; max-height:450px; margin-top:10px; margin-left:0%; }
+  #campo .grid_img_1				{ width: 100%; position:relative; top:0px; border-radius: 5px;  }
+  #campo span.correobuscatiendat		{font-size:10px; position:absolute; top:74px; left:1px; text-align:left;}
+  #campo.boxp{text-align:center; max-height:75px; font-weight:bold; }	
+  td.busca2{ width:15%;}
+/* #Tablet (Portrait)
+================================================== */
+    /* Note: Design for a width of 768px */
+  .linea1{ display:none;}
+  .sinlinea {display:block;}
+}
+/* #Clearing
+================================================== */
+    /* Self Clearing Goodness */
+    .container_12:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+    /* Use clearfix class on parent to clear nested columns,
+    or wrap each row of columns in a <div class="row"> */
+    .clearfix:before,
+    .clearfix:after,
+    .row:before,
+    .row:after {
+      content: '\0020';
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0; }
+    .row:after,
+    .clearfix:after {
+      clear: both; }
+
+
+    /* You can also use a <br class="clear" /> to clear columns */
+    .clear {
+      clear: both;
+      display: block;
+      overflow: hidden;
+      visibility: hidden;
+      width: 0;
+      height: 0;
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+    .Estilos_texto_producto{
+      font-size: 17px;
+    }
+    .Estilos_texto_servicio{
+      font-size: 17px;
+    }
+  }

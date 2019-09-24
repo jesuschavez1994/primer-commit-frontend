@@ -1,0 +1,22 @@
+.boton_filtro_buscador {
+    width: 80%;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    cursor: pointer;
+    border: 1px solid #F99615;
+    background-color: #F99615;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+    line-height: 18px;
+    padding: 3px 5px 3px;
+    outline: medium none;
+    margin-top: 20px;
+    height: 30px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}

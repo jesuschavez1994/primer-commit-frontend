@@ -1,0 +1,85 @@
+.Estilos_texto_producto_perfil_publico:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  
+  }
+  .Estilos_texto_servicio_perfil_publico:hover{
+    cursor: pointer;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .contorno_buscador_productos.edit.estilos_buscador_lupa{
+    border-radius:20px;
+    color:#676767;
+  }
+
+  .editar_bucador.estilos_texto_busca_el_producto_perfil_publico{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    color: rgb(54, 54, 53);
+  }
+
+  @media (min-width: 1025px) and (max-width: 1220px) {
+    .Estilos_texto_producto_perfil_publico{
+        font-size:15px;
+    }
+    .Estilos_texto_servicio_perfil_publico{
+        font-size:15px;
+    }
+    .editar_bucador.estilos_texto_busca_el_producto_perfil_publico{
+        font-size: 14px;
+    }
+  }
+
+
+
+  @media (min-width: 768px) and (max-width: 1024px) {
+     
+    .Estilos_texto_producto_perfil_publico{
+        font-size:21px;
+    }
+    .Estilos_texto_servicio_perfil_publico{
+        font-size:21px;
+    }
+    .editar_bucador.estilos_texto_busca_el_producto_perfil_publico{
+        font-size: 25px;
+    }
+    .estilos_fieldset{
+        height: 30px;
+    }
+    .contorno_buscador_productos.edit.estilos_buscador_lupa{
+        border-radius: 30px;
+        height: 35px;
+    }
+    .grid_6.estilos_linea_servicios_productos{
+        display:none;
+    }
+   
+
+  }
+
+  @media (min-width: 100px) and (max-width: 767px) {
+    .Estilos_texto_producto_perfil_publico{
+        font-size:12px;
+    }
+    .Estilos_texto_servicio_perfil_publico{
+        font-size:12px;
+    }
+    .editar_bucador.estilos_texto_busca_el_producto_perfil_publico{
+        font-size: 15px;
+    }
+    .estilos_fieldset{
+        height: 30px;
+        transform: translateY(-23%);
+    }
+    .contorno_buscador_productos.edit.estilos_buscador_lupa{
+        border-radius: 30px;
+        height: 30px;
+        width:100%;
+    }
+    .grid_6.estilos_linea_servicios_productos{
+        display: none;
+    }
+
+  }

@@ -1,0 +1,39 @@
+.flex{ 
+    display: flex;
+ }
+.flex_centrada{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex_derecha{ 
+    display: flex;
+    justify-content: flex-end;
+}
+.flex_izquierda{ 
+    display: flex;
+    justify-content: flex-start;
+}
+.vertical{ 
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.gris{ 
+    background-color: #B3B3B3;
+}
+.triangulo-equilatero-top-left {
+    width: 0;
+    height: 0;
+    border-right: 25px solid #f0ad4e;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-top: 25px solid #f0ad4e;
+}
+.triangulo-equilatero-top-left {
+    width: 0;
+    height: 0;
+    border-right: 25px solid #f0ad4e;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-top: 25px solid #f0ad4e;
+}

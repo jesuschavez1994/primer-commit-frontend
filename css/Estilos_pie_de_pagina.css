@@ -1,0 +1,530 @@
+.Div_Contenedor_Footer{
+    width: 100%;
+   /* border:solid 2px rgba(194, 13, 211, 0.466); */
+    display: flex;
+    flex-direction: row;
+    background: rgba(237,237,237,1);
+    background: -moz-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 66%, rgba(219,219,219,1) 75%, rgba(219,219,219,1) 87%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(237,237,237,1)), color-stop(0%, rgba(255,255,255,1)), color-stop(66%, rgba(230,230,230,1)), color-stop(75%, rgba(219,219,219,1)), color-stop(87%, rgba(219,219,219,1)));
+    background: -webkit-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 66%, rgba(219,219,219,1) 75%, rgba(219,219,219,1) 87%);
+    background: -o-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 66%, rgba(219,219,219,1) 75%, rgba(219,219,219,1) 87%);
+    background: -ms-linear-gradient(top, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 66%, rgba(219,219,219,1) 75%, rgba(219,219,219,1) 87%);
+    background: linear-gradient(to bottom, rgba(237,237,237,1) 0%, rgba(255,255,255,1) 0%, rgba(230,230,230,1) 66%, rgba(219,219,219,1) 75%, rgba(219,219,219,1) 87%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#dbdbdb', GradientType=0 );
+}
+.estilos_h3_registrate{
+    font-size: 20px;
+    line-height: 20px;
+}
+.estilos_h4_ayuda{
+    font-size:13px; 
+}
+.linea_Vertical_de_division{
+  margin-top:39px;
+  width: 1px;
+  height: 180px;
+  background:  rgb(198, 198, 197);
+}
+
+.contenedor_Pie_de_pagina{
+   display: flex;
+   width:34%;
+   justify-content: center;
+
+   height: 260.38px;
+}
+
+.Div_padre{
+    width:99%;
+    display: flex;
+    justify-content: center;
+    height: 260.38px;
+    position: relative;
+    align-content: center;
+}
+
+
+
+.Texto_footer{
+ /*  border:solid 2px rgba(204,104, 104); */
+   width:40%; 
+   height:140px;
+   position: absolute;
+   margin-top: 90px;
+  
+  
+   color:rgb(156, 155, 155);
+}
+.Texto_footer p{
+   font-family: 'Montserrat', sans-serif;
+   font-weight:500;
+   line-height:1.3;
+   color: rgba(65, 64, 64, 0.95);
+
+}
+
+.Logo_founduss{
+    width:100%;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    margin-top:5%;
+}
+
+.Logo_founduss img{
+    width:45%;
+    height: auto;  
+}
+
+.Redes_sociales{
+    width: 30%;
+   /* border:solid 2px rgb(186, 221, 30);  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.Texto_siguenos {
+    width:25%;
+    height: 22px;
+    position: absolute;
+    left:22%;
+    top:28%;
+   
+    }
+.Texto_Contactanos{
+    display: flex;
+    justify-content: center;
+    right:21%;
+    top:28%;
+    width:20%;
+    height: 22px;
+    position: absolute;
+    /*border:solid 2px rgb(221, 161, 30);   */
+}
+
+.Texto_Contactanos p{
+    font-size: 12px;
+   color:rgb(156, 155, 155);
+}
+
+.Div_redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width:100%;
+    height:80px;
+  /*  border:solid 2px rgb(30, 161, 221);  */
+    margin-bottom:25px;
+    margin-top:30px;
+}
+
+.boton.enviar_mensaje_ayuda_pie_pagina{
+    width:40%;
+}
+
+.Redes_sociales img{
+    height: 40px;
+}
+.Texto_siguenos p{
+    font-size: 14px;
+   color:rgb(156, 155, 155);
+    text-align: center;
+}
+.Texto_Derechos .Copyright{
+    font-size: 17px;
+}
+
+.Texto_Derechos {
+width: 100%;
+margin-left:0px;
+text-align: center;
+  /*border:solid 2px rgb(186, 221, 30); */
+
+}
+.Texto_Derechos p{
+    width: 100%;
+    color:rgb(102, 102, 102);
+    font-family:'Montserrat', sans-serif; 
+    font-weight:500;
+    line-height: 1.2;
+  /* border:solid 2px rgb(186, 221, 30); */
+
+}
+
+.Quienes_somos{
+    width: 36%;
+    box-sizing: border-box;  
+}
+
+.texto_Quienes_somos{
+    width:30%;
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    height: 30px;
+}
+.texto_Ayuda{
+    width:11%; 
+}
+.texto_Terminos{
+    width:45%;
+    display: flex;
+    justify-content: left;
+    font-size: 11px;
+}
+.div_Medio1{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 132.19px;  
+    padding-right:15%;
+    padding-top:6%;
+    box-sizing: border-box;
+  /*  border:solid 2px rgb(30, 221, 46); */
+}
+.div_Medio2{
+    position: relative;
+    box-sizing: border-box;
+    
+   /* align-items: flex-end;
+    justify-content: flex-end; */
+    width: 100%;
+    height: 132.19px;  
+  /*  border:solid 2px rgb(30, 167, 221); */
+}
+
+
+.div_Medio2_horizontal{
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+  
+    position: absolute;
+    top: 50%;
+    box-sizing: border-box;
+    padding-right:8%;
+}
+.texto_Ingresar{
+    margin-right: 21px;
+    margin-top: 20px;
+}
+
+.texto_Registrar{
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.texto_Ingresar h3 a{
+    text-decoration: none;
+    color:rgb(102, 102, 102);
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:500;
+}
+
+.Linea_Vertical_Ingresar_y_Registrar{
+    width: 1px;
+    margin-right:15px;
+    margin-top: 15px;
+    height: 35px;
+   background: rgb(102, 102, 102,0.4);
+}
+
+.texto_Quienes_somos h3 a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    margin-right:0px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: lighter;
+   
+}
+
+
+
+.texto_Ayuda h4 a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    margin-right:0px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: lighter;
+}
+
+.texto_Terminos h4 a{
+    text-decoration: none;
+    color: rgb(134, 134, 134);
+    margin-right:8px;
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: lighter;
+}
+
+.texto_Registrar h3 a{
+    text-decoration: none;
+    color:rgb(102, 102, 102);
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:500;
+}
+
+.Linea_Vertical{
+    margin-right:12px;
+    margin-left:12px;
+    width: 1px;
+    height: 25px;
+    background: rgb(102, 102, 102,0.4);
+}
+.estilos_h4_ayuda a{
+color: rgb(134, 134, 134);}
+
+.estilos_h4_ayuda a:hover{
+    color:black;
+    transition: color .3s ease;
+}
+
+.div_Medio2_horizontal .texto_Quienes_somos h3 a:hover{
+    color:black;
+    transition: color .3s ease;
+}
+.div_Medio2_horizontal .texto_Ayuda h4 a:hover{
+    color:black;
+    transition: color .3s ease;
+}
+.div_Medio2_horizontal .texto_Terminos h4 a:hover{
+    color:black;
+    transition: color .3s ease;
+}
+.div_Medio1 .texto_Ingresar h3 a:hover{
+    color:black;
+    transition: color .3s ease;
+}
+.div_Medio1 .texto_Registrar h3 a:hover{
+    color:black;
+    transition: color .3s ease;
+}
+
+/* Media Query*/ 
+
+/*PC Escritorio*/
+@media (min-width:1277px) and (max-width: 1600px) {
+    .modal-content.Ventana_ayuda_pie_pagina{
+     border-radius: 20px;
+     box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      height: 390px;
+      max-width:460px;
+      display: flex; 
+      min-height:1px;
+    }
+    .ayuda_ingresa{
+        font-family: 'Montserrat', sans-serif;
+        color: rgb(240,146,0);
+    }
+    .ayuda_ingresa:hover{
+        color:black;
+    }
+    .Linea_Separacion_ayuda_Terminos{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .div_Medio2_horizontal{
+        width: 100%;
+    }
+    .div_Medio2_horizontal .texto_Quienes_somos h3 a{
+        font-size: 15px;
+        margin-right:0px;
+    }
+    .div_Medio2_horizontal .texto_Ayuda h4 a{
+        font-size:15px;
+        margin-right:0px;
+    }
+    .div_Medio2_horizontal .texto_Terminos h4 a{
+        font-size:15px;
+    }
+   .div_Medio2 .div_Medio2_horizontal .Linea_Vertical{
+    margin-right:5px;
+    margin-left:5px;  
+    }
+    .Redes_sociales .Texto_Derechos{
+        margin-left:0px;
+        width:90%;
+        text-align: center;
+        transform: translateY(40%);
+    }
+
+    .Redes_sociales .Texto_Derechos p{
+       font-size:12px;
+    }
+    .Redes_sociales .Texto_siguenos p{
+        font-size:12px;
+    }
+    .Redes_sociales .Texto_Contactanos p{
+        font-size:11px;
+    }
+    .contenedor_Pie_de_pagina .Div_padre .Logo_founduss img{
+        width: 48%;
+        height: auto;
+    }
+    
+    .contenedor_Pie_de_pagina .Div_padre  .Texto_footer p{
+        font-size: 10px;
+    }
+    .contenedor_Pie_de_pagina .Div_padre  .Texto_footer  {
+        font-size:13px; 
+        margin-top: 90px;
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1276px) {
+    .div_Medio2_horizontal .texto_Quienes_somos h3 a{
+        font-size:13px;
+        margin-right:0px;
+        text-align: end;
+    }
+    .div_Medio2_horizontal .texto_Terminos h4 a{
+        font-size:11px;
+    }
+    .contenedor_Pie_de_pagina .Div_padre  .Texto_footer {
+        width: 70%;
+        margin-top: 100px;
+    }
+    .contenedor_Pie_de_pagina .Div_padre  .Texto_footer p{
+        font-size: 11px;
+    }
+    .modal-content.Ventana_ayuda_pie_pagina{
+        border-radius: 20px;
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2),
+         0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         height: 390px;
+         max-width:460px;
+         display: flex; 
+         min-height:1px;
+       }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .contenedor_Pie_de_pagina .Div_padre  .Texto_footer p {
+        font-size:13px; 
+        margin-top: 90px;
+    }
+    .modal-content.Ventana_ayuda_pie_pagina{
+        border-radius: 20px;
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2),
+         0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         max-width:460px;
+         display: flex; 
+         min-height:1px;
+       }
+    .Div_Contenedor_Footer .Redes_sociales{
+        width: 30%;
+    }
+    .Quienes_somos{
+        width: 36%;
+    }
+    .Quienes_somos .div_Medio2_horizontal{
+        padding-right:0px;
+        height: auto;
+    }
+    .Quienes_somos .div_Medio2_horizontal .texto_Terminos{
+        width:auto;
+        height: auto;
+        margin-right: 5%;
+    }
+    .Quienes_somos .div_Medio2_horizontal .texto_Quienes_somos h3 a{
+        font-size: 11px;
+    }
+    .estilos_texto_h4_terminos{
+        font-size: 11px;
+    }
+    .Quienes_somos .div_Medio2_horizontal .texto_Ayuda h4 a{
+        font-size: 11px;
+    }
+   
+    .contenedor_Pie_de_pagina .Texto_footer{
+        width: 70%;
+        margin-top:5px;
+       
+    }
+    .Div_Contenedor_Footer .contenedor_Pie_de_pagina .Div_padre .Texto_footer p{
+      font-size: 11px;
+    }
+    .contenedor_Pie_de_pagina .Div_padre .Logo_founduss{
+        height:85px;
+    }
+    .contenedor_Pie_de_pagina .Div_padre .Logo_founduss img{
+        width: 55%;
+        height:85px;
+    }
+    .Redes_sociales .Texto_Derechos p{
+        font-size:10px;
+    }
+    .Redes_sociales  .Texto_siguenos p{
+        font-size: 13px;
+    }
+    .Redes_sociales  .Texto_Contactanos{
+        width: 26%;
+        right: 15%;
+        top: 31%;
+    }
+    .Redes_sociales .Texto_siguenos{
+        left: 26%;
+        top: 26%;
+    }
+    .Redes_sociales  .Texto_Contactanos p {
+        font-size: 12px;
+       
+    }
+    .Quienes_somos .div_Medio1 .texto_Ingresar h3 a{
+        font-size:16px;
+    }
+    .Quienes_somos .div_Medio1 .texto_Registrar h3 a{
+        font-size:16px;
+    }
+
+    
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+    .Texto_siguenos {
+        top:20%;
+    }
+    .Texto_Contactanos{
+        top:20%; 
+    }
+    .contenedor_Pie_de_pagina{
+        display: none;
+    }
+    .modal-content.Ventana_ayuda_pie_pagina{
+        border-radius: 20px;
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2),
+         0 6px 20px 0 rgba(0, 0, 0, 0.19);
+         height: 430px;
+         max-width:470px;
+         display: flex; 
+         min-height:1px;
+       }
+    .Redes_sociales{
+        width: 100%;
+    }
+    .Quienes_somos{
+    display: none; 
+    }
+}
+.pie_de_pagina_redes:hover{
+    cursor:pointer;
+}
+.pie_de_pagina_redes.instagran{
+    display:none;
+}
+.contenedor_img_redes_pie_de_pagina{
+    height:40px;
+    margin-left:1%;
+    margin-right:1%;
+}
+.contenedor_img_redes_pie_de_pagina_2_plano{
+    height:40px;
+    width:8%;
+    display:none;
+    margin-left:1%;
+    margin-right:1%;
+}

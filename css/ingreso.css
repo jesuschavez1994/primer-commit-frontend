@@ -1,0 +1,272 @@
+.texto_recuperar_contraseña{
+    margin-top: 51px;
+    text-align: center;
+    color:rgb(87, 87, 86);
+    font-size: 27pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
+    text-shadow: 2px 2px 4px  rgba(0, 0, 0, 0.28);
+    line-height: 1.2;
+  }
+  .boton.enviar_mensaje_atyuda_ingresa{
+    width:40%;
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+
+  }
+  .texto_para_usuario{
+    margin-top:15pt;
+    color:rgb(112, 111, 111);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12pt;
+   margin-right: 20px;
+   margin-left: 20px;
+   text-align: center;
+  }
+  #Texto_ingrese_correo_ingresa{
+    font-size: 17px;
+  }
+  #texto_Ingresa_tu_usuario{
+      width: 100%;
+      display: flex;
+      font-size:17px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:lighter;
+      text-align: center; 
+      color: #504f4f;   
+  }
+  .modal-content.cuadro_Recuperacion_contraseña{
+      width: 40%;
+      height: 286.719px;
+      display: flex;
+      border-radius: 10px;
+      font-size: 10pt;
+      min-height: 0;
+  }
+
+  #mensaje_click{
+    width: 97px;
+    height:30px; 
+    margin-top: 10px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+    font-size: 14pt;
+  }
+
+  .Cuadro_Con_elementos{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+  } 
+
+  #myModal_contraseña{
+    padding-top: 0;
+  }
+/* Telefono */
+@media (min-width: 768px) and (max-width: 1024px) {
+	.modal-content.cuadro_Recuperacion_contraseña{
+    width:70%;
+    height:500px; 
+}
+
+.texto_recuperar_contraseña{
+  margin-top: 50px;
+  font-size: 30pt; 
+}
+.texto_para_usuario{
+  margin-top:35px;
+  font-size: 20pt;
+  line-height: 1; 
+} 
+#formulario{
+  margin-top: 80px;
+}
+#texto_Ingresa_tu_usuario{
+  font-size:21px;
+  width: 120%;
+}
+#mensaje_click{
+  margin-top: 15px;
+  font-size: 14pt;
+  width:140px;
+  height:44px; 
+  text-align: center;
+}
+#divformulario_cambio_contraseña{
+display: flex;
+justify-content: center;
+width: 70%;
+margin-top:20px;
+}      
+}
+
+/*Telefono Horizontal*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+}
+/* PCEscritorio*/
+@media (min-width:1025px) and (max-width: 1600px) {
+  .modal-content.cuadro_Recuperacion_contraseña{
+    min-width:635.5px;
+    height: 340px;
+    min-height:0;  
+}
+.texto_recuperar_contraseña{
+  margin-top: 10px;
+  font-size: 26pt;
+}
+.texto_para_usuario{
+  margin-top:20px;
+  font-size: 12pt;
+}
+.modal-content.estilos_olvidu_su_usuario{
+  min-width:635.5px;
+}
+
+}
+
+@media (min-width:1601px) and (max-width: 2000px) {
+  .modal-content.cuadro_Recuperacion_contraseña{
+   min-width:41%; 
+   min-height:340px;
+}
+}
+.modal-content.estilos_olvidu_su_usuario{
+  border-radius: 10px;
+  height: 310px;
+  display: flex;
+  width:41%;
+  overflow-y:hidden;
+  min-height:1px;
+}
+.Estilos_texto_envio_de_usuario{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    font-size: 26pt;
+    color: rgb(87, 87, 86);
+    text-transform: none;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+.twelve.columns.div_colse{
+  width:100%;
+  height: 20px;
+  margin-top:2%;
+  margin-right:3%;
+}
+.close.estilos_cerrar_ventana_envio_de_usuario{
+  font-size: 30px;
+}
+
+.boton_submit.estilos_boton_enviar{
+  border-radius: 20px;
+  width:27%;
+  height: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+}
+.editar.Estilos_texto_ingrese_su_correo{
+  width: 100%;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  padding-bottom:10px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+ .modal-content.estilos_olvidu_su_usuario{
+    height: 300px;
+    width:60%;
+  }
+  #mensaje_click2{
+    margin-top: 0px;
+    transform: translateY(-10px);
+  }
+  .Estilos_texto_envio_de_usuario{
+    font-size:25pt;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    justify-content: center;
+  }
+  .Estilos_texto_ingrese_su_correo{
+    font-size:22px;
+}
+.boton_submit.estilos_boton_enviar{
+    width:38%;
+    height: 35px;
+    font-size:14pt;
+}
+.close.estilos_cerrar_ventana_envio_de_usuario{
+  font-size: 30px;
+}
+.modal-content.cuadro_Recuperacion_contraseña{
+  min-width:635.5px;
+  height: 340px;
+  min-height:0;  
+}
+.texto_recuperar_contraseña{
+  margin-top: 10px;
+  font-size: 19pt; 
+}
+.texto_para_usuario {
+  margin-top: 20px;
+  font-size: 12pt;
+  line-height: 1;
+}
+#formulario {
+  margin-top: 10px;
+  height:50px;
+}
+#texto_Ingresa_tu_usuario {
+  font-size:17px;
+}
+#mensaje_click{
+  font-size: 14pt;
+  height:33px;
+  margin-top: 0px;
+  width:120px;
+}
+}
+@media (min-width: 90px) and (max-width: 767px) {
+  .modal-content.estilos_olvidu_su_usuario{
+    height: 300px;
+   min-width:450px
+  }
+  .modal-content.cuadro_Recuperacion_contraseña{
+    min-width:470.5px;
+    height: 330px;
+    min-height:0;  
+    overflow-y: hidden;
+  }
+  .texto_recuperar_contraseña{
+    margin-top: 10px;
+    font-size: 19pt; 
+  }
+  .texto_para_usuario {
+    font-size: 10pt;
+   
+  }
+  #texto_Ingresa_tu_usuario {
+    font-size:14px;
+  }
+  .boton_submit.estilos_boton_enviar{
+      width:35%;
+    
+  }
+}

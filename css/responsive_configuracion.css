@@ -1,0 +1,3887 @@
+#categoria{
+   font-size: 15px;
+}
+
+ @media (min-width:1025px) {
+    .loader_img{
+         border: 10px solid #e4e3e3;
+         border-radius: 50%;
+         border-top: 10px solid #ff9100;
+         width: 50px;
+         height: 50px;
+         transform: rotate(0deg);
+    }
+    
+    .lapiz{
+       cursor: pointer;
+    }
+    .candado{
+      padding-bottom: 5px;
+    }
+    .Estilo_certificado{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      color: #ffffff; 
+      font-size: 14pt; 
+    }
+    .Formulario_datos_configuracion.paso4_datos_enviados{
+       display:none;
+    }
+    .Estilo_parrafo_datos_enviados{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: #4d4d4d; 
+      font-size: 11pt; 
+      line-height: 1.5;
+      transform: translateY(-20px);
+    }
+    .texto_enviado_certificacion{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      font-size: 25pt; 
+    }
+   .Formulario_datos_configuracion.paso4_datos_enviados{
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 4%;
+   }
+   #loader {
+      position: absolute;
+      left: 56%;
+      top: 57%;
+      z-index: 1;
+      width: 150px;
+      height: 150px;
+      margin: -75px 0 0 -75px;
+      border: 7px solid #f3f3f3;
+      border-radius: 50%;
+      border-top: 7px solid #f09207;
+      width: 90px;
+      height: 90px;
+      -webkit-animation: spin 2s linear infinite;
+      animation: spin .6s linear infinite;
+      display: none;
+    }
+   
+    
+    /* Safari */
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    @-webkit-keyframes spin {
+      0% { -webkit-transform: rotate(0deg); }
+      100% { -webkit-transform: rotate(360deg); }
+    }
+    
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    
+    /* Add animation to "page content" */
+    .animate-bottom {
+      position: relative;
+      -webkit-animation-name: animatebottom;
+      -webkit-animation-duration: 0.5s;
+      animation-name: animatebottom;
+      animation-duration: 2s;
+      height: 250px;
+      justify-content: space-evenly;
+    }
+    
+    @-webkit-keyframes animatebottom {
+      from { bottom:-100px; opacity:0 } 
+      to { bottom:0px; opacity:1 }
+    }
+    
+    @keyframes animatebottom { 
+      from{ bottom:-100px; opacity:0 } 
+      to{ bottom:0px; opacity:1 }
+    }
+    
+    #myDiv {
+      display: none;
+      text-align: center;
+    }
+   ::placeholder { color: rgb(192, 192, 194); }
+    .input_datos.usuario{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      text-overflow: ellipsis;
+    }
+    .boton_atras_datos_perfil{
+      width: 100%;
+      height: 20px;
+      display: flex;
+      padding-left: 10px;
+    }
+    .texto_direccion{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      color: #939191;
+      font-weight: 500;
+    }
+    .estilo_boton{
+       width:25%;
+    }
+    .estilos_boton_atras_Datos_empresa{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      color: #939191;
+      font-weight: 500;
+      display: flex;
+      align-items: flex-end;
+      height: 23px;
+      cursor: pointer;
+    }
+    .contenedor_boton_atras_a_datos_de_empresa{
+       display: flex;
+    }
+    .Formulario_datos_configuracion.descripcion{
+      display: none;
+    }
+    .editar.editar.input_paso_1{
+      border: none;
+      background: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      color: #939191;
+      font-weight: 400;
+    }
+    .boton_siguiente_que_direcciona_al_mapa{
+      font-family: 'Montserrat', sans-serif;
+      color: rgb(102, 102, 102);
+      font-size: 18px;
+      font-weight: 400;
+      background: white;
+      border:none;
+      box-shadow: none;
+    }
+    .boton_siguiente_que_direcciona_al_mapa:hover{
+       cursor: pointer;
+    }
+    .div_contenedor_boton_siguiente_que_direcciona_al_mapa{
+       width: 100%;
+       height:25px;
+       display: flex;
+       justify-content: flex-end;
+    }
+    .six.columns.form_registro.configuracion_usuario.datos_perfil{
+       margin-top: 1px;
+    }
+    .six.columns.form_registro.configuracion_usuario.margin_perfil.datos_perfil{
+      margin-top: 6px;
+    }
+    .estilo_boton_siguiente_al_mapa{
+      width: 100%;
+      height: 30px; 
+      display: flex;
+      justify-content: flex-end;
+      padding: 0px;
+    }
+    .boton.boton_flex.siguiente_editar.siguiente.al_mapa{
+      font-family: 'Montserrat', sans-serif;
+      color: rgb(102, 102, 102);
+      font-size: 18px;
+      font-weight: 400;
+      background: white;
+      border:none;
+      box-shadow: none;
+    }
+    .editar.input_certificacion{
+      border: none;
+      background: white;
+      font-size:15px;
+    }
+   .texto_boton_guardar_cambios_datos_empresas_configuracion{
+      font-family: 'Montserrat', sans-serif;
+      color:rgb(255, 255, 255);
+      font-size: 18px;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
+   }
+    .estilos_paso_1_certificacion{
+      padding: 10px 1% 1%;
+      width: 840px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      border-radius: 10px;
+      border-width: 1px;
+      margin-left: 11%;
+      display: none;
+      box-sizing: border-box;
+      height: 496px;
+      margin-bottom: 150px;
+    }
+    .estilos_paso_3_certificacion{
+      padding: 20px 1% 1%;
+      width: 840px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      border-radius: 10px;
+      border-width: 1px;
+      margin-left: 11%;
+      display: none;
+      box-sizing: border-box;
+      height: 496px;
+      margin-bottom: 150px;
+    }
+   #id_contenedor_span_premium_configuracion{
+      width: 100%;
+      height: 11%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-bottom: solid 2px rgba(224,223,223,0.4);
+    }
+    #contenedor_span_texto_premium{
+      width: 90%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #FCA15E;
+    }
+    #id_contenedor_span_Estandar_configuracion{
+      width: 100%;
+      height: 11%;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: solid 2px rgba(224,223,223,0.4);
+    }
+    #contenedor_span_texto_estandar{
+      width: 90%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #79E28C;
+    }
+   .contenedor_sencillo_configuracion{
+      width: 100%;
+      height: 11%;
+      display: flex;
+      place-content: center;
+      align-items: flex-end;
+    }
+    #contenedor_span_texto{
+      width: 90%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(15, 219, 219);
+    }
+    .Contenedor_principal_nivel_gratis_configuracion{
+      width: 20%;
+      height: 90%;
+    }
+    .contenedor_boton_siguiente_al_mapa{
+       width: 100%;
+       height: 77px;
+       display: flex;
+       justify-content: center;
+       align-items: flex-end;
+    }
+    .boton_editar{
+      border-radius: 20px;
+      height: 27px;
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+      background: rgb(241, 147, 1);
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+    }
+    .estilos_datos_de_empresa{
+      height: 496px;
+      width: 840px;
+      border-radius: 10px;
+      border-width: 1px;
+      margin-left: 11%;
+      display:none;
+      box-sizing: border-box;
+      padding-left: 4%;
+      padding-right: 4%;
+      padding-top: 4%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      margin-bottom:150px;
+    }
+    .boton_siguiente_datos_empresa{
+       width: 100%;
+       height: 20px;
+       display: flex;
+       justify-content: flex-end;
+
+    }
+    .boton_atras_datos_empresa{
+      width: 100%;
+      height: 20px;
+      display: flex;
+      align-items: flex-end;
+      padding-left: 10px;
+    }
+    .boton_guardar_datos_empresa{
+      width: 100%;
+      height: 50px;
+      display: flex;
+      justify-content: space-around;
+      align-items:flex-end;
+    }
+    .span_boton_siguiente{
+      width: 100%;
+      cursor: pointer;
+      height: 20px;
+      border-radius: 20px;
+      height: 27px;
+      display: flex;
+      justify-content:flex-end;
+      align-items: center;
+      font-size: 18px;
+    }
+    .boton_editar:hover{
+       cursor: pointer; 
+    }
+    .contenedor_boton_editar{
+      width: 100%;
+      height:50px;
+      align-items: flex-end;
+      display: flex;
+      justify-content: center;
+    }
+    .texto_cambiar_imagen_tienda{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      font-size: 18pt;
+      color: rgb(87, 84, 84);
+      font-size:15pt;
+    }
+    #id_ubicacion{
+       display:none;
+    }
+    #imagen_tienda{
+       display:none;
+    }
+ .progress{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+  
+ }   
+.contenedor_menu_y_cuadro_de_configuracion{
+        min-height: 900px;
+    }
+.Formulario_datos_configuracion{
+    width:840px;
+    height:496px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left:11%; 
+    display: flex;
+    box-sizing: border-box;
+    margin-bottom:100px;
+    padding-left:5%;
+    padding-top:4%;
+    padding-right: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+ }
+ .Estilos_certificacion_configuracion{
+   width:840px;
+   height:496px;
+   border-radius: 10px;
+   border-width: 1px;
+   margin-left:11%; 
+   display: none;
+   box-sizing: border-box;
+   margin-bottom:100px;
+   padding-left:1%;
+   padding-top:1%;
+   padding-right: 1%;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+ }
+ .caja_imagen_perfil{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    height:300px;
+}
+.imagen_tienda{
+   width: 40%;
+   display: flex;
+   justify-content: center;
+   height:300px;
+}
+ .texto_Datos_de_la_cuenta{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    font-size:19pt; 
+    color:rgb(87, 84, 84); 
+    margin-bottom:40px;
+ }
+ .imagen_configuracion{
+    width:25%;
+    height:60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   
+}
+ .correo_confi_img{
+    width:35px;
+    height: 35px;
+   transform: translateY(-5px);
+}
+.engranage_img{
+    width:46px;
+    height:46px;
+}
+.Texto_configuracion{
+   font-family: 'Montserrat', sans-serif;
+   font-weight:400;
+   font-size:20pt; 
+   color:rgb(102, 102, 102); 
+   margin-left:10px;
+}
+.six.columns.form_registro.configuracion_usuario{
+    display: flex;
+    justify-content: start;
+}
+.input_datos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:400;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-bottom: 0%;
+    padding-bottom:0px;
+    background: none;
+    width: 90%;
+    margin-bottom: 8px;
+    transform: translateY(3px);
+    margin-left:3px;
+    color:rgb(100, 100, 100);
+    font-size: 14px;
+    text-overflow: ellipsis;
+ }
+ .contenedor_label_Estado_y_Ciudad_configuracion{
+    display: flex;
+    margin-top: 30px;
+}
+.texto_Datos_de_la_cuenta.tienda{
+    display:none;
+ }
+ .Caja_Datos{
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    height:340px;
+}
+.estilos_datos_de_ubicacion{
+   display:none;
+    flex-direction: column;
+    height: 496px;
+    width: 840px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left: 11%;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+    margin-bottom: 150px;
+}
+.estilos_mapa_ubicacon{
+   display:none;
+   flex-direction: column;
+   height: 496px;
+   justify-content: center;
+   width: 840px;
+   border-radius: 10px;
+   border-width: 1px;
+   margin-left: 11%;
+   box-sizing: border-box;
+   padding-left: 4%;
+   padding-right: 4%;
+   padding-top: 3.1%;
+   padding-bottom:1.4%;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+   margin-bottom: 150px;
+}
+.flex.label_nombre_contacto_configuracion_tienda{
+    display:none;
+    width: 60%;
+}
+.flex.edit.nombre_contacto_configuracion_tienda{
+   display:none;
+}
+.ciudad_label.label_nombre_contacto_configuracion_tienda{
+   display:none;
+}
+.boton_flex{
+    display:none;
+    width:100%;
+}
+.flex.label_nombre_contacto_configuracion_tienda{
+    display:none;
+    width: 60%;
+}
+.caja_contenedora_slider_low{
+    width:100%;
+    height:140px;
+    display:flex;
+    align-items: center;
+}
+.Lista_ordenada_ol_menu_sidevar_slider_nav_perfil_usuario{
+    height:90px;
+    width:100%;
+    margin-bottom: 0px;
+    display:flex;
+    justify-content: flex-end;
+    padding-right: 14%;
+}
+.slider_perfil_usuario{
+    display:flex;
+    width:100%;
+}
+.boton.boton_flex.siguiente_editar{
+    width:20%;
+    border-radius:20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:300;
+    height: 27px;
+    justify-content: center;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+}
+.flex.line{
+   display: none;
+}
+.container.img_loaded{
+    padding-right:0%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+ }
+ #configuracion_nav{
+    justify-content: center;
+    margin-left:0%;
+    width:75%;
+}
+.menu_sidevar_slider{
+    margin-top:20px;
+    height: 120px;
+    display: flex; 
+    justify-content: center;
+   align-items: center;
+   align-content: center;
+ }
+ /* css Certificación */
+ .Espacio_texto_certificacion_configuracion{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 50px;
+ }
+ .Texto_certificacion_configuracion{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    font-size:13pt; 
+    color:rgb(102, 102, 102);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+ }
+ .Planes_de_certificacion{
+   width: 40%;
+   border-radius: 7px;
+   display: flex;
+   flex-direction: column;
+   height: 70%;
+ }
+ .Contenedor_principal_Modo_columna_de_texto_certificacion_y_Planes_de_certificacion_Configuracion{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+ }
+ .Contenedor_Principal_de_los_planes_de_certificacion_configuracion{
+   display: flex;
+   place-content: center flex-start;
+   align-items: center;
+   width: 100%;
+   height: 100%;
+ }
+ .contenedor_especificaciones_individuales_planes_de_certificacion{
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 30%
+ }
+ .texto_plan_certificacion{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-family: 'Montserrat', sans-serif;
+     font-weight:500;
+     color:rgb(86, 80, 80);
+     font-size:10pt;
+     text-align: center;
+ }
+ .estilos_texto_sencillo_gratis_Configuracion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    color:rgb(255, 255, 255);
+    font-size:12pt;
+    text-align: center;
+ }
+ .estilos_texto_gratis_Configuracion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    color:rgb(86, 80, 80);
+    font-size:14pt;
+    text-align: center;
+ }
+ .estilos_texto_90_dias_Configuracion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    color:rgb(86, 80, 80);
+    font-size:10pt;
+    text-align: center;
+ }
+ #botton_certificarme_nivel_gratis_configuracion{
+    background: rgb(17, 204, 199);
+    padding: 0px 0px 0px 0px; 
+ }
+ #botton_certificarme_nivel_estandar_configuracion{
+    background: #29E28C;
+    cursor: pointer;
+    opacity:0.5;
+ }
+ #botton_certificarme_nivel_premium_configuracion{
+    background: #FCA15E;
+    cursor: pointer;
+    opacity:0.5;
+ }
+ #botton_certificarme_nivel_estandar_configuracion:hover{
+   background: #29E28C;
+   opacity:1;
+ }
+ #botton_certificarme_nivel_premium_configuracion:hover{
+   background: #FCA15E;
+   opacity:1;
+ }
+ .contenedor_check_list{
+    background: rgba(224, 223, 223, 0.4);
+     width:98.8%;
+     height: 11.1%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ }
+ .contenedor_especificaciones_individuales_planes_de_certificacion{
+    background: rgba(224, 223, 223, 0.4);
+ }
+ .numeros_aplicaciones_certificacion{
+     font-size: 15px;
+ }
+ .boton_certificarme_configuracion{
+     width: 100%;
+     border:none;
+     border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     height:100%;
+     font-family: 'Montserrat', sans-serif;
+     font-weight:500;
+     color:rgb(255, 255, 255);
+     font-size: 13pt;
+ }
+ .list_confirmacion{
+     width:25px;
+     height:25px;
+     font-size:22px;
+     color:#1EaF44;
+     font-weight: 700;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .circulo_naranja{
+   display: flex;
+   justify-content: center;
+   font-size:16pt;
+   align-items: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 100%;
+   border-top: 2px solid rgb(255, 166, 0);
+   border-right: 2px solid rgb(255, 166, 0);
+   border-bottom: 2px solid rgb(255, 166, 0);
+   border-left: 2px solid rgb(255, 166, 0);
+ }
+ .circulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-top: 3px solid rgb(27, 148, 49);
+    border-right: 3px solid rgb(27, 148, 49);
+    border-bottom: 3px solid rgb(27, 148, 49);
+    border-left: 3px solid rgb(27, 148, 49);
+ }
+ .circulo_rojo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-top: 3px solid rgb(255, 0, 0);
+    border-right: 3px solid rgb(255, 0, 0);
+    border-bottom: 3px solid rgb(255, 0, 0);
+    border-left: 3px solid rgb(255, 0, 0);
+ }
+ .list_confirmacion_X{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width:25px;
+   height:25px;
+   font-size:22px;
+   font-weight: 700;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   color:rgb(232, 70, 59);
+}
+ .Espacio_entre_cada_plantilla{
+     width:2%;
+     height:90%;
+ }
+ #contenedor_span_texto{
+     border-top-right-radius: 5px;
+     border-top-left-radius: 5px;
+ }
+ #id_contenedor_span_Gratis_configuracion{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    padding-top: 4px; 
+ }
+ #contenedor_span_texto_estandar{
+    border-top-right-radius: 5px;
+     border-top-left-radius: 5px; 
+ }
+ #id_contenedor_span_Estandar_configuracion{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    padding-top: 4px;
+ }
+ #contenedor_span_texto_premium{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+ }
+ #id_contenedor_span_premium_configuracion{
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+    padding-top: 4px;
+ }
+ #id_contenedor_especificaciones_individuales_planes_de_certificacion{
+     background: white;
+ }
+ #id_contenedor_especificaciones_individuales_planes_de_certificacion_2{
+     background:white;
+ }
+ #id_contenedor_especificaciones_individuales_planes_de_certificacion_4{
+     background: white;
+ }
+ #id_contenedor_de_check_list_configuracion{
+    background: white;  
+ }
+ #id_contenedor_2{
+    background: white; 
+ }
+ #id_contenedor_4{
+    background: white; 
+ }
+ #id_contenedor_8{
+    background: white;  
+ }
+ #id_contenedor_9{
+    background: white;  
+ }
+ #id_contenedor_10{
+    background: white;  
+ }
+#id_contenedor_11{
+    background: white;  
+}
+.cuadro_contenedor_de_texto_planes_certificacion_configuracion{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background: rgb(238, 146, 19);
+}
+.span_texto_Planes_de_certificacion_configuracion{
+   font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: white;
+    border-radius: 7px;
+    font-size: 15pt;
+    color: rgb(86, 80, 80);
+}
+#id_Planes_de_certificacion{
+    box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, 0.1);
+}
+/*.Contenedor_principal_nivel_gratis_configuracion{
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}*/
+.contenedor_box_shadow{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
+.Ventana_formularios{
+    width:100%;
+    display:flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    box-sizing: border-box;
+}
+.texto_boton_siguiente_configuracion{
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 400;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+ }
+ .spam_slider_perfil_usuario{
+    width: 100%;
+    height: 27px;
+    border-radius: 20px;
+    
+    height: 27px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+    background: rgb(241, 147, 1);
+    margin-top: 13%;
+    border-radius:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+ }
+ .texto_descripcion{
+    margin-bottom: 1%;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(102, 102, 102);
+}
+/* Pasos */
+#verificacion_datos_certificacion {
+   box-sizing: border-box;
+   width: 100%;
+   height: 460px;
+   padding-top: 10px;
+   padding-left: 5%;
+   padding-right: 5%;
+   padding-bottom: 10px;
+}
+#Tienda_label{
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.form1 label.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom:0px; 
+}
+#verificacion_datos_certificacion p {
+   font-size: 16px;
+   font-weight: 500;
+}
+.amarillo-letra-certificacion {
+   color: rgb(128, 128, 128);
+   display: flex;
+   font-weight: 500;
+   display: flex;
+   justify-content:center;
+   padding-left: 3%;
+   align-items: center;
+   margin-top: 3%;
+}
+#correo {
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+   font-size: 15px;
+   border:none;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   text-overflow: ellipsis;
+}
+.form1 label {
+   position: relative;
+   width: 100%;
+   float: left;
+   clear: left;
+}
+.form_certificacion {
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.six.columns {
+   display: flex;
+   justify-content: flex-start;
+   width: 50%;
+   font-size:15px;
+}
+#telefono{
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border:none;
+   font-family: 'Montserrat', sans-serif;
+   color: #939191;
+   text-overflow: ellipsis;
+   font-weight: 500;
+}
+#tienda{
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   background: white;
+   border:none;
+   width: 90%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   font-size: 14px;
+   text-overflow: ellipsis;
+}
+#estado_certificacion{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   color: #939191;
+   width: 100%;
+   text-overflow: ellipsis;
+   font-size: 16px;
+}
+#subcategoria{
+   font-size:15px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   color: #939191;
+   text-overflow: "----"; 
+   padding: 0px;
+   height: 25px;
+}
+#cel{
+   font-weight:500;
+   font-size: 15px;
+   border:none;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: #939191;
+   overflow: hidden;
+  text-overflow: "----"; 
+}
+#ciudad{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   width: 100%;
+}
+.Textp_paso_1{
+   color: rgb(128, 128, 128);
+   transform: translateX(-20px);
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+   align-items: center;
+}
+.Textp_paso_1.paso1{
+   color: rgb(128, 128, 128);
+   transform: translateX(-27px);
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+   align-items: center;
+}
+.color_Tutulos_datos{
+   color: rgb(0, 0, 0);
+   margin-bottom: 5px;
+}
+#celular_label_paso{
+   width:90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#correo_label{
+   width:90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#categoria_label_paso{
+   width:80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#telefono_label{
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#telefono{
+   width: 100%;
+}
+.edit.categoria_select{
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   text-overflow: ellipsis;
+}
+.verificacion_de_datos_certificacion{
+   display: none;
+}
+#id_la_subcategoria{
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#id_label_ciudad{
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#id_label_estado{
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45); 
+}
+#id_ciudad{
+   width: 100%;
+   font-size: 15px;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #939191;
+}
+.six.columns.form_registro.form_certificacion.nuevo{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+   height:79px;
+   align-items: flex-end;
+
+}
+.boton.siguiente_a_paso_2{
+   transform: translateX(3px);
+   cursor: pointer;
+   width: 18%;
+   border-radius: 20px;
+   font-weight:300;
+   height:27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+}
+.Estilo_texto_paso_1{
+   width: 100%;
+   height: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: translateY(10px);
+}
+.Texto_verifica{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   font-size: 12pt;
+   transform: translateX(-20px);
+}
+.estilos_transferencias_bancarias_div_configuracion_certificacion{
+   display: none;
+   width: 100%;
+   padding-top: 10px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+   height: 473px;
+}
+.cuentas_estilos_texto_certificacacion{
+   font-size: 12pt;
+   font-family: 'Montserrat', sans-serif;
+   font-weight:500;
+   color: rgb(128, 128, 128);
+   line-height: 1.7; 
+   height: 26%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.Espacios{
+   width: 100%;
+   height:11%;
+}
+.Espacios_boton{
+   width: 100%;
+   height:18%;
+}
+.contenedor_boton{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.texto_h2_Transferencia_bancaria_certificacion{
+   text-transform: none;
+   margin-top: 25px;
+   font-size: 13pt;
+   color: rgb(128, 128, 128);
+   font-family: 'Montserrat', sans-serif;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.cuadro_archivos_certificacion{
+   display: none;
+   flex-direction: column;
+}
+.label_archivos_certificacion{
+   width: 33.333%;
+   text-align: center;
+}
+.letras_archivos_adjuntos {
+   font-size: 14px;
+   width: 100%;
+   text-align: center;
+   height: 40px;
+   font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+}
+.Espacio_div_entre_img_texto_certificacion{
+   text-align: center;
+   margin-top: 1%;
+   height: 105px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;  
+}
+.contenedor_texto_documentos{
+   text-align: center;
+   padding-left: 5%;
+   padding-right: 5%;
+   font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+   font-size: 11pt;
+}
+.contenedor_h3_paso3{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.Texto_recibos{
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+   font-weight: 500;
+}
+.contenedor_tipos_de_cuenta_flex_certificacion{
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.span_contenedor_de_cuentas_bancarias{
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+}
+.tipos_de_cuentas_bancarias_paso_2{
+   width: 40%;
+   display: flex;
+    flex-direction: column;
+}
+.Textos_tipos_de_banco_certificacion{
+   height: 33%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color:white;
+   font-size: 15pt;
+}
+.espacio_entre_span{
+   width: 100%;
+   height: 15%;
+}
+.espacio_entre_tipo_de_cuentas_y_numeros_de_cuenta{
+   width: 1%;
+   height: 100%;
+}
+.rounded.estilo_img_requisitos_certificacion{
+   cursor: pointer;
+}
+.estilos_textos_cuentas_bancarias_h2{
+   display: flex;
+   justify-content: start;
+   padding-left: 9%;
+}
+.texto_adjuntar_documentos_tipos{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   margin-top: 25px;
+   margin-bottom: 0px;
+}
+.estilo_texto_span_datos_configuracion{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color:black;
+   font-size:16px;
+}
+.six.columns.form_registro.configuracion_usuario{
+   width: 65%;
+}
+.flex.linea{
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.spam_slider_perfil_usuario {
+   width: 100%;
+   height: 27px;
+   border-radius: 20px;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+   background: rgb(241, 147, 1);
+   margin-top: 13%;
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+}
+#avatar{
+   height: 300px;
+   width: 300px;
+   border-radius:20px;
+}
+#li_boton_editar{
+   display:none;
+}
+#id_contenedor_span_Gratis_configuracion{
+   width: 100%;
+   height: 11%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-bottom: solid 2px rgba(224,223,223,0.4);
+ }
+ .boton_guardar_cambios_datos_del_perfil{
+   border: none;
+   border-radius: 20px;
+   height: 27px;
+   width: 15%;
+   font-size: 18px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+   background: rgb(241, 147, 1);
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   cursor: pointer;
+ }
+ .boton_guardar_cambios_datos_empresa{
+   width: 17%;
+   border: none;
+   background: white;
+ }
+ #subcategoria_certificacion{
+   height:18px;
+ }
+ .ciudad_label{
+   height:18px;
+ }
+ #ciudad_certificacion{
+   height:25px;
+ }
+ #estado_certificacion{
+   height:18px;
+ }
+ #boton_editar_configuracion{
+   padding-left:3%;
+}
+}
+
+@media (min-width:800px)and (max-width:1024px){
+   ::placeholder { color: rgb(192, 192, 194); }
+   .loader_img{
+      border: 10px solid #e4e3e3;
+      border-radius: 50%;
+      border-top: 10px solid #ff9100;
+      width: 50px;
+      height: 50px;
+      transform: rotate(0deg);
+ }
+ 
+ .lapiz{
+    cursor: pointer;
+ }
+ .candado{
+   padding-bottom: 5px;
+ }
+ .Estilo_certificado{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #ffffff; 
+   font-size: 14pt; 
+ }
+   .Formulario_datos_configuracion.paso4_datos_enviados{
+      display:none;
+   }
+   .Estilo_parrafo_datos_enviados{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: #4d4d4d; 
+      font-size: 11pt; 
+      line-height: 1.5;
+      transform: translateY(-20px);
+    }
+   .texto_enviado_certificacion{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     font-size: 25pt; 
+   }
+  .Formulario_datos_configuracion.paso4_datos_enviados{
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 4%;
+  }
+  #loader {
+     position: absolute;
+     left: 56%;
+     top: 57%;
+     z-index: 1;
+     width: 150px;
+     height: 150px;
+     margin: -75px 0 0 -75px;
+     border: 7px solid #f3f3f3;
+     border-radius: 50%;
+     border-top: 7px solid #f09207;
+     width: 90px;
+     height: 90px;
+     -webkit-animation: spin 2s linear infinite;
+     animation: spin .6s linear infinite;
+     display: none;
+   }
+   
+   @-webkit-keyframes spin {
+     0% { -webkit-transform: rotate(0deg); }
+     100% { -webkit-transform: rotate(360deg); }
+   }
+   
+   @keyframes spin {
+     0% { transform: rotate(0deg); }
+     100% { transform: rotate(360deg); }
+   }
+   
+   /* Add animation to "page content" */
+   .animate-bottom {
+     position: relative;
+     -webkit-animation-name: animatebottom;
+     -webkit-animation-duration: 0.5s;
+     animation-name: animatebottom;
+     animation-duration: 2s;
+     height: 250px;
+     justify-content: space-evenly;
+   }
+   
+   @-webkit-keyframes animatebottom {
+     from { bottom:-100px; opacity:0 } 
+     to { bottom:0px; opacity:1 }
+   }
+   
+   @keyframes animatebottom { 
+     from{ bottom:-100px; opacity:0 } 
+     to{ bottom:0px; opacity:1 }
+   }
+   
+   #myDiv {
+     display: none;
+     text-align: center;
+   }
+   .input_datos.usuario{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      text-overflow: ellipsis;
+    }
+   .texto_boton_siguiente_configuracion{
+      font-family: 'Montserrat', sans-serif;
+      color:rgb(102, 102, 102);
+      font-size: 18px;
+      font-weight: 400;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+   }
+   .estilo_boton{
+      width:25%;
+   }
+   .estilos_boton_atras_Datos_empresa{
+      font-family: 'Montserrat', sans-serif;
+      font-size: 18px;
+      color: #939191;
+      font-weight: 500;
+      display: flex;
+      align-items: flex-end;
+      height: 23px;
+      cursor: pointer;
+    }
+    .contenedor_boton_atras_a_datos_de_empresa{
+       display: flex;
+    }
+   .Formulario_datos_configuracion.descripcion{
+      display: none;
+    }
+   .contenedor_boton_editar.boton_responsive{
+      height: 28px;
+   }
+   #boton_editar_configuracion{
+      padding:0px;
+      height: 25px;
+      border-bottom:none;
+   }
+   #camposubcategoria_certificacion{
+      height:25px;
+   }
+   #subcategoria_certificacion{
+      height:25px;
+    }
+    .ciudad_label{
+      height:25px;
+    }
+    #ciudad_certificacion{
+      height:25px;
+    }
+    #estado_certificacion{
+      height:25px;
+    }
+   .div_contenedor_boton_siguiente_que_direcciona_al_mapa{
+      width: 100%;
+      height:25px;
+      display: flex;
+      justify-content: flex-end;
+   }
+   .editar.editar.input_paso_1{
+      border: none;
+      background: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 16px;
+      color: #939191;
+      font-weight: 400;
+      padding:0px;
+      height:20px;
+    }
+   .boton_siguiente_datos_empresa{
+      width: 100%;
+      height: 20px;
+      display: flex;
+      justify-content: flex-end;
+   }
+   .six.columns.form_registro.configuracion_usuario.datos_perfil{
+      margin-top: 1px;
+   }
+   .six.columns.form_registro.configuracion_usuario.margin_perfil.datos_perfil{
+     margin-top: 3px;
+   }
+   .texto_boton_guardar_cambios_datos_empresas_configuracion{
+      font-family: 'Montserrat', sans-serif;
+      color:rgb(255, 255, 255);
+      font-size: 18px;
+      font-weight: 400;
+   }
+   .span_boton_siguiente{
+      width: 100%;
+      cursor: pointer;
+      height: 20px;
+      border-radius: 20px;
+      display: flex;
+      justify-content:flex-end;
+      align-items: center;
+      font-size: 18px;
+    }
+   .boton_guardar_datos_empresa{
+      width: 100%;
+      height: 28px;
+      display: flex;
+      justify-content: space-around;
+      align-items:flex-end;
+    }
+   .form1 label.flex {
+      display: flex;
+      flex-direction: column;
+      justify-content:space-around;
+      align-items: flex-start;
+      margin-bottom:0px; 
+  }
+   .boton_guardar_cambios_datos_empresa{
+      width: 17%;
+      border: none;
+      background: white;
+    }
+   .contenedor_boton_siguiente_al_mapa{
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .boton_editar{
+      border-radius: 20px;
+      height: 27px;
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+      background: rgb(241, 147, 1);
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+    }
+   .imagen_tienda{
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      height:300px;
+   }
+   .boton_atras_datos_empresa{
+      width: 100%;
+      height: 20px;
+      display: flex;
+      justify-content: flex-start;
+      padding-left: 10px;
+    }
+   .estilos_paso_1_certificacion{
+      margin-top:40px;
+      padding: 10px 1% 1%;
+      width: 840px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      border-radius: 10px;
+      border-width: 1px;
+      display: none;
+      box-sizing: border-box;
+      height: 496px;
+      margin-bottom: 150px;
+    }
+    .estilos_paso_3_certificacion{
+      margin-top:40px;
+      padding: 20px 1% 1%;
+      width: 840px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      border-radius: 10px;
+      border-width: 1px;
+      display: none;
+      box-sizing: border-box;
+      height: 496px;
+      margin-bottom: 150px;
+    }
+   #id_contenedor_span_premium_configuracion{
+      width: 100%;
+      height: 11%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-bottom: solid 2px rgba(224,223,223,0.4);
+    }
+   #contenedor_span_texto_premium{
+      width: 90%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #FCA15E;
+    }
+    #contenedor_span_texto_estandar{
+      width: 90%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #79E28C;
+    }
+   #id_contenedor_span_Gratis_configuracion{
+      width: 100%;
+      height: 11%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+   #contenedor_span_texto{
+      width: 90%;
+      height: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: rgb(15, 219, 219);
+    }
+   .contenedor_sencillo_configuracion{
+      width: 100%;
+      height: 11%;
+      display: flex;
+      place-content: center;
+      align-items: flex-end;
+    }
+   .Contenedor_principal_nivel_gratis_configuracion{
+      width: 20%;
+      height: 90%;
+    }
+   .span_texto_Planes_de_certificacion_configuracion{
+      font-family: 'Montserrat', sans-serif;
+       font-weight: 600;
+       color: white;
+       border-radius: 7px;
+       font-size: 15pt;
+   }
+   .span_boton_siguiente{
+      width: 100%;
+      cursor: pointer;
+      border-radius: 20px;
+      height: 20px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+    }
+   .contenedor_boton_editar{
+      width: 90%;
+      height:50px;
+      align-items: flex-end;
+      display: flex;
+      justify-content: center;
+    }
+   .Estilos_certificacion_configuracion{
+      margin-top:40px;
+      width:840px;
+      height:496px;
+      border-radius: 10px;
+      border-width: 1px;
+      display:none;
+      box-sizing: border-box;
+      margin-bottom:100px;
+      padding-left:1%;
+      padding-top:1%;
+      padding-right: 1%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+    }
+   #li_boton_editar{
+      display:none;
+   }
+   #avatar{
+      height: 300px;
+      width: 300px;
+      border-radius:20px;
+   }
+   #verificacion_datos_certificacion {
+      box-sizing: border-box;
+      width: 100%;
+      height: 460px;
+      padding-top: 10px;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 10px;
+   }
+   .six.columns.form_registro {
+       width: 50%; 
+  }
+  .six.columns {
+   display: flex;
+   justify-content: flex-start;
+   width: 50%;
+   font-size: 15px;
+}
+#Tienda_label {
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#verificacion_datos_certificacion p {
+   font-size: 16px;
+   font-weight: 500;
+}
+#tienda {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   background: white;
+   border: none;
+   width: 90%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   font-size: 14px;
+   text-overflow: ellipsis;
+}
+#correo_label {
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#verificacion_datos_certificacion p {
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 3px;
+}
+#correo {
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+   font-size: 15px;
+   border: none;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   text-overflow: ellipsis;
+}
+#telefono_label {
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#telefono {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border: none;
+   font-family: 'Montserrat', sans-serif;
+   color: #939191;
+   text-overflow: ellipsis;
+   width: 100%;
+   font-weight: 500;
+}
+#celular_label_paso {
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#cel {
+   font-size: 15px;
+   font-weight:600;
+   border: none;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: #939191;
+   overflow: hidden;
+   text-overflow: "----";
+}
+#categoria_label_paso {
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.edit.categoria_select {
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   text-overflow: ellipsis;
+}
+#id_la_subcategoria {
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#subcategoria {
+   font-size: 15px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   text-overflow: "----";
+}
+#id_label_estado {
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#estado_certificacion {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   color: #939191;
+   width: 100%;
+   text-overflow: ellipsis;
+   font-size: 16px;
+}
+#id_label_ciudad {
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#ciudad {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   width: 100%;
+}
+.six.columns.form_registro.form_certificacion.nuevo{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 23px;
+   height:53px;
+   align-items: flex-end;
+
+}
+.boton.siguiente_a_paso_2 {
+   transform: translateX(3px);
+   cursor: pointer;
+   width: 18%;
+   border-radius: 20px;
+   font-weight: 300;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+}
+   .Estilo_texto_paso_1{
+      width: 100%;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(10px);
+   }
+   .Textp_paso_1.paso1 {
+      color: rgb(128, 128, 128);
+      transform: translateX(-27px);
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      align-items: center;
+  }
+  .circulo_naranja {
+   display: flex;
+   justify-content: center;
+   font-size: 16pt;
+   align-items: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 100%;
+   border-top: 2px solid rgb(255, 166, 0);
+   border-right: 2px solid rgb(255, 166, 0);
+   border-bottom: 2px solid rgb(255, 166, 0);
+   border-left: 2px solid rgb(255, 166, 0);
+}
+.amarillo-letra-certificacion {
+   color: rgb(128, 128, 128);
+   display: flex;
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   padding-left: 3%;
+   align-items: center;
+   margin-top: 3%;
+   margin-bottom: 12px;
+}
+.Texto_verifica {
+   font-size: 14pt;
+   transform: translateX(-20px);
+}
+.estilos_textos_cuentas_bancarias_h2 {
+   display: flex;
+   justify-content: start;
+   padding-left: 9%;
+}
+.texto_h2_Transferencia_bancaria_certificacion {
+   text-transform: none;
+   margin-top: 25px;
+   font-size: 13pt;
+   color: rgb(128, 128, 128);
+   font-family: 'Montserrat', sans-serif;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.Textp_paso_1 {
+   color: rgb(128, 128, 128);
+   transform: translateX(-20px);
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+   align-items: center;
+}
+.Espacios {
+   width: 100%;
+   height: 11%;
+}
+.Textos_tipos_de_banco_certificacion {
+   height: 33%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: white;
+   font-size: 15pt;
+}
+.espacio_entre_span {
+   width: 100%;
+   height: 15%;
+}
+.contenedor_tipos_de_cuenta_flex_certificacion {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.tipos_de_cuentas_bancarias_paso_2 {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+}
+.espacio_entre_tipo_de_cuentas_y_numeros_de_cuenta {
+   width: 1%;
+   height: 100%;
+}
+.span_contenedor_de_cuentas_bancarias {
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+}
+.cuentas_estilos_texto_certificacacion {
+   font-size: 12pt;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: rgb(128, 128, 128);
+   line-height: 1.7;
+   height: 26%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.Espacios_boton {
+   width: 100%;
+   height:14%;
+}
+.contenedor_boton {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.boton.siguiente_a_paso_2 {
+   transform: translateX(3px);
+   cursor: pointer;
+   width: 18%;
+   border-radius: 20px;
+   font-weight: 300;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+}
+.contenedor_texto_documentos {
+   text-align: center;
+   padding-left: 5%;
+   padding-right: 5%;
+   font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+   font-size: 11pt;
+}
+.Texto_recibos {
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+   font-weight: 500;
+}
+.label_archivos_certificacion {
+   width: 33.333%;
+   text-align: center;
+}
+.letras_archivos_adjuntos {
+   font-size: 14px;
+   width: 100%;
+   text-align: center;
+   height: 40px;
+   font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+}
+.rounded.estilo_img_requisitos_certificacion {
+   cursor: pointer;
+}
+.Espacio_div_entre_img_texto_certificacion {
+   text-align: center;
+   margin-top: 1%;
+}
+.texto_adjuntar_documentos_tipos {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   margin-top: 25px;
+   margin-bottom: 0px;
+}
+.boton.siguiente_a_paso_2 {
+   transform: translateX(3px);
+   cursor: pointer;
+   width: 18%;
+   border-radius: 20px;
+   font-weight: 300;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+}
+   .verificacion_de_datos_certificacion{
+      display: none;
+   }
+   .estilos_transferencias_bancarias_div_configuracion_certificacion{
+      display: none;
+      width: 100%;
+      padding-top: 10px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      height: 473px;
+   }
+   .six.columns.form_registro.configuracion_usuario{
+      width: 65%;
+   }
+   .six.columns.form_registro.configuracion_usuario.margin_perfil{
+      margin-top: 3%;
+   }
+   .cuadro_archivos_certificacion{
+      display: none;
+      flex-direction: column;
+   }
+    .Formulario_datos_configuracion{
+        margin-bottom: 50px;
+        min-width:840px;
+        height:496px;
+        border-radius: 10px;
+        border-width: 1px;
+        display: flex;
+        box-sizing: border-box;
+        padding-left:4%;
+        padding-right: 4%;
+        padding-top:4%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+     }
+     .caja_imagen_perfil{
+        width: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height:300px;
+    }
+     .texto_Datos_de_la_cuenta{
+        font-family: 'Montserrat', sans-serif;
+        font-weight:400;
+        font-size:19pt; 
+        color:rgb(87, 84, 84); 
+        margin-bottom:40px;
+     }
+     .imagen_configuracion{
+        width:25%;
+        height:60px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+     .correo_confi_img{
+        width:35px;
+        height: 35px;
+       transform: translateY(-5px);
+    }
+    .engranage_img{
+        width:46px;
+        height:46px;
+    }
+    .Texto_configuracion{
+       font-family: 'Montserrat', sans-serif;
+       font-weight:400;
+       font-size:20pt; 
+       color:rgb(102, 102, 102); 
+       margin-left:10px;
+    }
+    .six.columns.form_registro.configuracion_usuario{
+        display: flex;
+        justify-content: start;
+    }
+    .input_datos{
+        font-family: 'Montserrat', sans-serif;
+        font-weight:500;
+        border-top:none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        margin-bottom: 0%;
+        padding-bottom:0px;
+        background: none;
+        width: 90%;
+        margin-bottom: 8px;
+        transform: translateY(3px);
+        margin-left:3px;
+        color:rgb(100, 100, 100);
+        font-size: 14px;
+        text-overflow: ellipsis;
+     }
+     .contenedor_label_Estado_y_Ciudad_configuracion{
+        display: flex;
+        margin-top: 30px;
+    }
+    .texto_Datos_de_la_cuenta.tienda{
+        display:none;
+     }
+     .Caja_Datos{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        height:390px;
+    }
+    .flex.label_nombre_contacto_configuracion_tienda{
+        display:none;
+        width: 60%;
+    }
+    .flex.edit.nombre_contacto_configuracion_tienda{
+       display:none;
+    }
+    .ciudad_label.label_nombre_contacto_configuracion_tienda{
+       display:none;
+    }
+    .boton_flex{
+        display:none;
+        width:100%;
+    }
+    .flex.label_nombre_contacto_configuracion_tienda{
+        display:none;
+        width: 60%;
+    }
+    .caja_contenedora_slider_low{
+        width:100%;
+        height:140px;
+        display:flex;
+        align-items: center;
+    }
+    .Lista_ordenada_ol_menu_sidevar_slider_nav_perfil_usuario{
+        height:90px;
+        width:100%;
+        margin-bottom: 0px;
+        display:flex;
+        justify-content: flex-end;
+        padding-right: 2%;
+        align-items: flex-end;
+    }
+    .slider_perfil_usuario{
+        display:flex;
+        width:100%;
+    }
+    .boton.boton_flex.siguiente_editar{
+      width:18%;
+      border-radius:20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:300;
+      height: 27px;
+      justify-content: center;
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+  }
+    .container.img_loaded{
+        padding-right:0%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+     }
+     #configuracion_nav{
+        justify-content: center;
+        margin-left:0%;
+        width:75%;
+    }
+    .menu_sidevar_slider{
+        margin-top:20px;
+        height: 120px;
+        display: flex; 
+        justify-content: center;
+       align-items: center;
+       align-content: center;
+     }
+     /* css Certificación */
+     .Espacio_texto_certificacion_configuracion{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 50px;
+     }
+     .Texto_certificacion_configuracion{
+      font-family: 'Montserrat', sans-serif;
+      font-weight:500;
+      font-size:13pt; 
+      color:rgb(102, 102, 102);
+      display:flex;
+      align-items: center;
+      justify-content: center;
+     }
+     .Planes_de_certificacion{
+      width: 40%;
+      border-radius: 7px;
+      display: flex;
+      flex-direction: column;
+      height: 70%;
+     }
+     .Contenedor_principal_Modo_columna_de_texto_certificacion_y_Planes_de_certificacion_Configuracion{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+     }
+     .Contenedor_Principal_de_los_planes_de_certificacion_configuracion{
+      display: flex;
+      place-content: center flex-start;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+     }
+     .contenedor_especificaciones_individuales_planes_de_certificacion{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 30%
+     }
+     .texto_plan_certificacion{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Montserrat', sans-serif;
+         font-weight:500;
+         color:rgb(86, 80, 80);
+         font-size:10pt;
+         text-align: center;
+     }
+     .estilos_texto_sencillo_gratis_Configuracion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:600;
+        color:rgb(255, 255, 255);
+        font-size:12pt;
+        text-align: center;
+     }
+     .estilos_texto_gratis_Configuracion{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:600;
+      color:rgb(86, 80, 80);
+      font-size:14pt;
+      text-align: center;
+   }
+   .estilos_texto_90_dias_Configuracion{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:500;
+      color:rgb(86, 80, 80);
+      font-size:10pt;
+      text-align: center;
+   }
+     #botton_certificarme_nivel_gratis_configuracion{
+        background: rgb(17, 204, 199);
+        padding: 0px 0px 0px 0px; 
+     }
+     #botton_certificarme_nivel_estandar_configuracion{
+      background: #29E28C;
+     }
+     #botton_certificarme_nivel_premium_configuracion{
+      background: #FCA15E;
+     }
+     .contenedor_check_list{
+        background: rgba(224, 223, 223, 0.4);
+         width:98.8%;
+         height: 11.1%;
+         justify-content: center;
+         align-items: center;
+         display: flex;
+     }
+     .contenedor_especificaciones_individuales_planes_de_certificacion{
+        background: rgba(224, 223, 223, 0.4);
+     }
+     .numeros_aplicaciones_certificacion{
+         font-size: 15px;
+     }
+     .boton_certificarme_configuracion{
+         width: 100%;
+         border:none;
+         border-bottom-left-radius: 5px;
+         border-bottom-right-radius: 5px;
+         height:100%;
+         font-family: 'Montserrat', sans-serif;
+         font-weight:600;
+         color:rgb(255, 255, 255);
+     }
+     .list_confirmacion{
+      width:25px;
+      height:25px;
+      font-size:22px;
+      color:#1EaF44;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+     .circulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        border-top: 3px solid rgb(27, 148, 49);
+        border-right: 3px solid rgb(27, 148, 49);
+        border-bottom: 3px solid rgb(27, 148, 49);
+        border-left: 3px solid rgb(27, 148, 49);
+     }
+     .circulo_rojo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        border-top: 3px solid rgb(255, 0, 0);
+        border-right: 3px solid rgb(255, 0, 0);
+        border-bottom: 3px solid rgb(255, 0, 0);
+        border-left: 3px solid rgb(255, 0, 0);
+     }
+     .list_confirmacion_X{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width:25px;
+      height:25px;
+      font-size:22px;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color:rgb(232, 70, 59);
+   }
+     .Espacio_entre_cada_plantilla{
+         width:2%;
+         height:90%;
+     }
+     #contenedor_span_texto{
+         border-top-right-radius: 5px;
+         border-top-left-radius: 5px;
+     }
+     #id_contenedor_span_Gratis_configuracion{
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        padding-top: 4px; 
+     }
+     #contenedor_span_texto_estandar{
+        border-top-right-radius: 5px;
+         border-top-left-radius: 5px; 
+     }
+     #id_contenedor_span_Estandar_configuracion{
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        padding-top: 4px;
+     }
+     #contenedor_span_texto_premium{
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+     }
+     #id_contenedor_span_premium_configuracion{
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        padding-top: 4px;
+     }
+     #id_contenedor_especificaciones_individuales_planes_de_certificacion{
+         background: white;
+     }
+     #id_contenedor_especificaciones_individuales_planes_de_certificacion_2{
+         background:white;
+     }
+     #id_contenedor_especificaciones_individuales_planes_de_certificacion_4{
+         background: white;
+     }
+     #id_contenedor_de_check_list_configuracion{
+        background: white;  
+     }
+     #id_contenedor_2{
+        background: white; 
+     }
+     #id_contenedor_4{
+        background: white; 
+     }
+     #id_contenedor_8{
+        background: white;  
+     }
+     #id_contenedor_9{
+        background: white;  
+     }
+     #id_contenedor_10{
+        background: white;  
+     }
+    #id_contenedor_11{
+        background: white;  
+    }
+    .cuadro_contenedor_de_texto_planes_certificacion_configuracion{
+      border-top-right-radius: 5px;
+      border-top-left-radius: 5px;
+      display: flex;
+      place-content: center;
+      align-items: center;
+      width: 100%;
+      height: 30%;
+      background: rgb(238, 146, 19);
+    }
+    #id_Planes_de_certificacion{
+        box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    /*.Contenedor_principal_nivel_gratis_configuracion{
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }*/
+    .contenedor_box_shadow{
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    .Ventana_formularios{
+        width:100%;
+        display:flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        box-sizing: border-box;
+    }
+   
+     .spam_slider_perfil_usuario{
+        min-width: 110px;
+        height: 39px;
+        background: rgb(241, 147, 1);
+        margin-top: 13%;
+        border-radius:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+     }
+     .texto_descripcion{
+        margin-bottom: 1%;
+        font-size: 18px;
+    }
+    .flex.linea{
+      border-bottom: solid 1px rgba(194, 189, 189,0.45);
+  }
+  .estilo_texto_span_datos_configuracion {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: black;
+   font-size: 11pt;
+    }
+    .estilos_li_menu_perfil_usuario{
+      display: flex;
+      width:33%;
+      align-items: flex-end;
+   }
+   .spam_slider_perfil_usuario {
+      width: 100%;
+      height: 27px;
+      border-radius: 20px;
+      height: 27px;
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+      background: rgb(241, 147, 1);
+      margin-top: 13%;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+  }
+#boton_atras_datos_tienda_configuracion{
+   display: none;
+}
+.estilos_datos_de_empresa{
+   margin-top: 40px;
+   height: 496px;
+   width: 840px;
+   border-radius: 10px;
+   border-width: 1px;
+   display:none;
+   box-sizing: border-box;
+   padding-left:4%;
+   padding-right: 4%;
+   padding-top: 4%;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+   margin-bottom:150px;
+ }
+ .estilos_mapa_ubicacon{
+   display:none;
+   flex-direction: column;
+   height: 496px;
+   justify-content: center;
+   width: 840px;
+   border-radius: 10px;
+   border-width: 1px;
+   margin-left: 11%;
+   box-sizing: border-box;
+   padding-left: 4%;
+   padding-right: 4%;
+   padding-top: 4%;
+   padding-bottom:1%;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+   margin-bottom: 150px;
+}
+.estilos_datos_de_ubicacion{
+   margin-top: 40px;
+   display:none;
+    flex-direction: column;
+    height: 496px;
+    width: 840px;
+    border-radius: 10px;
+    border-width: 1px;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 4.5%;
+    padding-right: 4.5%;
+    padding-top: 4%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+    margin-bottom: 150px;
+}
+.boton_guardar_cambios_datos_del_perfil{
+   border: none;
+   border-radius: 20px;
+   height: 27px;
+   width: 15%;
+   font-size: 18px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+   background: rgb(241, 147, 1);
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 300;
+   cursor: pointer;
+ }
+}
+
+@media (min-width:90px)and (max-width:799px){
+   .loader_img{
+      border: 10px solid #e4e3e3;
+      border-radius: 50%;
+      border-top: 10px solid #ff9100;
+      width: 50px;
+      height: 50px;
+      transform: rotate(0deg);
+ }
+ 
+ .lapiz{
+    cursor: pointer;
+ }
+ .candado{
+   padding-bottom: 5px;
+ }
+ .Estilo_certificado{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #ffffff; 
+   font-size: 14pt; 
+ }
+   .Formulario_datos_configuracion.paso4_datos_enviados{
+      display:none;
+   }
+   .Estilo_parrafo_datos_enviados{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      color: #4d4d4d; 
+      font-size: 11pt; 
+      line-height: 1.5;
+      transform: translateY(-20px);
+    }
+   .texto_enviado_certificacion{
+     font-family: 'Montserrat', sans-serif;
+     font-weight: bold;
+     font-size: 25pt; 
+   }
+  .Formulario_datos_configuracion.paso4_datos_enviados{
+     justify-content: center;
+     align-items: center;
+     padding-bottom: 4%;
+  }
+  #loader {
+     position: absolute;
+     left: 56%;
+     top: 57%;
+     z-index: 1;
+     width: 150px;
+     height: 150px;
+     margin: -75px 0 0 -75px;
+     border: 7px solid #f3f3f3;
+     border-radius: 50%;
+     border-top: 7px solid #f09207;
+     width: 90px;
+     height: 90px;
+     -webkit-animation: spin 2s linear infinite;
+     animation: spin .6s linear infinite;
+     display: none;
+   }
+   
+   @-webkit-keyframes spin {
+     0% { -webkit-transform: rotate(0deg); }
+     100% { -webkit-transform: rotate(360deg); }
+   }
+   
+   @keyframes spin {
+     0% { transform: rotate(0deg); }
+     100% { transform: rotate(360deg); }
+   }
+   
+   /* Add animation to "page content" */
+   .animate-bottom {
+     position: relative;
+     -webkit-animation-name: animatebottom;
+     -webkit-animation-duration: 0.5s;
+     animation-name: animatebottom;
+     animation-duration: 2s;
+     height: 250px;
+     justify-content: space-evenly;
+   }
+   
+   @-webkit-keyframes animatebottom {
+     from { bottom:-100px; opacity:0 } 
+     to { bottom:0px; opacity:1 }
+   }
+   
+   @keyframes animatebottom { 
+     from{ bottom:-100px; opacity:0 } 
+     to{ bottom:0px; opacity:1 }
+   }
+   
+   #myDiv {
+     display: none;
+     text-align: center;
+   }
+   .texto_boton_siguiente_configuracion{
+      font-family: 'Montserrat', sans-serif;
+      color:rgb(102, 102, 102);
+      font-size: 18px;
+      font-weight: 400;
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      cursor: pointer;
+   }
+   .boton_atras_datos_perfil{
+      display: flex;
+   }
+   .boton_guardar_cambios_datos_empresa{
+      width: 17%;
+      border: none;
+      background: white;
+    }
+   .imagen_tienda{
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      height:300px;
+   }
+   .estilos_mapa_ubicacon{
+      display:none;
+      flex-direction: column;
+      height: 496px;
+      justify-content: center;
+      width: 840px;
+      border-radius: 10px;
+      border-width: 1px;
+      margin-left: 11%;
+      box-sizing: border-box;
+      padding-left: 4%;
+      padding-right: 4%;
+      padding-top: 4%;
+      padding-bottom:1%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      margin-bottom: 150px;
+   }
+   .estilos_datos_de_empresa{
+      height: 496px;
+      width: 840px;
+      border-radius: 10px;
+      border-width: 1px;
+      display:none;
+      box-sizing: border-box;
+      padding-left:8%;
+      padding-right: 8%;
+      padding-top: 8%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      margin-bottom:150px;
+      margin-left:25%; 
+      transform: translateX(23%);
+    }
+   .estilos_paso_1_certificacion{
+      padding: 10px 1% 1%;
+      width: 840px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      border-radius: 10px;
+      border-width: 1px;
+      margin-left: 7%;
+      transform: translateX(23%);
+      display:none;
+      box-sizing: border-box;
+      height: 496px;
+      margin-bottom: 150px;
+    }
+    .estilos_paso_3_certificacion{
+      padding: 20px 1% 1%;
+      width: 840px;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+      border-radius: 10px;
+      border-width: 1px;
+      margin-left: 7%;
+      transform: translateX(23%);
+      display: none;
+      box-sizing: border-box;
+      height: 496px;
+      margin-bottom: 150px;
+    }
+   #id_contenedor_span_Estandar_configuracion{
+      width: 100%;
+      height: 11%;
+      flex-direction: column;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: solid 2px rgba(224,223,223,0.4);
+    }
+   .Contenedor_principal_nivel_gratis_configuracion{
+      width: 20%;
+      height: 90%;
+    }
+    .contenedor_sencillo_configuracion{
+      width: 100%;
+      height: 11%;
+      display: flex;
+      place-content: center;
+      align-items: flex-end;
+    }
+   .span_texto_Planes_de_certificacion_configuracion{
+      font-family: 'Montserrat', sans-serif;
+       font-weight: 600;
+       color: white;
+       border-radius: 7px;
+       font-size: 15pt;
+   }
+   .span_boton_siguiente{
+      width: 100%;
+      cursor: pointer;
+      border-radius: 20px;
+      height: 20px;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+    }
+   .contenedor_boton_editar{
+      width: 90%;
+      height: 55px;
+      align-items: flex-end;
+      display: flex;
+      justify-content: center;
+    }
+   .Estilos_certificacion_configuracion{
+      width:840px;
+      height:496px;
+      border-radius: 10px;
+      border-width: 1px;
+      margin-left:25%; 
+      transform: translateX(23%);
+      display:none;
+      box-sizing: border-box;
+      margin-bottom:100px;
+      padding-left:1%;
+      padding-top:1%;
+      padding-right: 1%;
+      box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+    }
+
+   #verificacion_datos_certificacion {
+      box-sizing: border-box;
+      width: 100%;
+      height: 460px;
+      padding-top: 10px;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 10px;
+   }
+   .six.columns.form_registro {
+       width: 50%; 
+  }
+  .six.columns {
+   display: flex;
+   justify-content: flex-start;
+   width: 50%;
+   font-size: 15px;
+}
+#Tienda_label {
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#verificacion_datos_certificacion p {
+   font-size: 16px;
+   font-weight: 500;
+}
+#tienda {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   background: white;
+   border: none;
+   width: 90%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   font-size: 14px;
+   text-overflow: ellipsis;
+}
+#correo_label {
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#verificacion_datos_certificacion p {
+   font-size: 16px;
+   font-weight: 500;
+   margin-bottom: 3px;
+}
+#correo {
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+   font-size: 15px;
+   border: none;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   text-overflow: ellipsis;
+}
+#telefono_label {
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#telefono {
+   border-top: none;
+   border-left: none;
+   border-right: none;
+   border: none;
+   font-family: 'Montserrat', sans-serif;
+   color: #939191;
+   text-overflow: ellipsis;
+   width: 100%;
+   font-weight: 500;
+}
+#celular_label_paso {
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#cel {
+   font-size: 15px;
+   border: none;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   color: #939191;
+   overflow: hidden;
+   text-overflow: "----";
+}
+#categoria_label_paso {
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.edit.categoria_select {
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   text-overflow: ellipsis;
+}
+#id_la_subcategoria {
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#subcategoria {
+   font-size: 15px;
+   width: 100%;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   text-overflow: "----";
+}
+#id_label_estado {
+   width: 80%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#estado_certificacion {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   color: #939191;
+   width: 100%;
+   text-overflow: ellipsis;
+   font-size: 16px;
+}
+#id_label_ciudad {
+   width: 90%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+#ciudad {
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   width: 100%;
+}
+.six.columns.form_registro.form_certificacion.nuevo{
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   margin-top: 23px;
+   height:53px;
+   align-items: flex-end;
+
+}
+.boton.siguiente_a_paso_2 {
+   transform: translateX(3px);
+   cursor: pointer;
+   width: 18%;
+   border-radius: 20px;
+   font-weight: 300;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+}
+
+   /*//////////**/
+   .Estilo_texto_paso_1{
+      width: 100%;
+      height: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translateY(10px);
+   }
+   .Textp_paso_1.paso1 {
+      color: rgb(128, 128, 128);
+      transform: translateX(-27px);
+      display: flex;
+      justify-content: center;
+      margin-bottom: 20px;
+      align-items: center;
+  }
+  .circulo_naranja {
+   display: flex;
+   justify-content: center;
+   font-size: 16pt;
+   align-items: center;
+   width: 25px;
+   height: 25px;
+   border-radius: 100%;
+   border-top: 2px solid rgb(255, 166, 0);
+   border-right: 2px solid rgb(255, 166, 0);
+   border-bottom: 2px solid rgb(255, 166, 0);
+   border-left: 2px solid rgb(255, 166, 0);
+}
+.amarillo-letra-certificacion {
+   color: rgb(128, 128, 128);
+   display: flex;
+   font-weight: 500;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 3%;
+   margin-bottom: 5%;
+}
+.Texto_verifica {
+   font-size: 14pt;
+   transform: translateX(-20px);
+}
+.estilos_textos_cuentas_bancarias_h2 {
+   display: flex;
+   justify-content: start;
+   padding-left: 9%;
+}
+.texto_h2_Transferencia_bancaria_certificacion {
+   text-transform: none;
+   margin-top: 25px;
+   font-size: 13pt;
+   color: rgb(128, 128, 128);
+   font-family: 'Montserrat', sans-serif;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.Textp_paso_1 {
+   color: rgb(128, 128, 128);
+   transform: translateX(-20px);
+   display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+   align-items: center;
+}
+.Espacios {
+   width: 100%;
+   height: 11%;
+}
+.tipos_de_cuentas_bancarias_paso_2 {
+   width: 40%;
+   display: flex;
+   flex-direction: column;
+}
+.espacio_entre_span {
+   width: 100%;
+   height: 15%;
+}
+.espacio_entre_tipo_de_cuentas_y_numeros_de_cuenta {
+   width: 1%;
+   height: 100%;
+}
+.Textos_tipos_de_banco_certificacion {
+   height: 33%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: white;
+   font-size: 15pt;
+}
+.contenedor_tipos_de_cuenta_flex_certificacion {
+   width: 100%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+}
+.span_contenedor_de_cuentas_bancarias {
+   display: flex;
+   flex-direction: column;
+   width: 40%;
+}
+.cuentas_estilos_texto_certificacacion {
+   font-size: 12pt;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: rgb(128, 128, 128);
+   line-height: 1.7;
+   height: 26%;
+   border-bottom: solid 1px rgba(194, 189, 189,0.45);
+}
+.Espacios_boton {
+   width: 100%;
+   height:14%;
+}
+.contenedor_boton {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.boton.siguiente_a_paso_2 {
+   transform: translateX(3px);
+   cursor: pointer;
+   width: 18%;
+   border-radius: 20px;
+   font-weight: 300;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+}
+.contenedor_texto_documentos {
+   text-align: center;
+   padding-left: 5%;
+   padding-right: 5%;
+   font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+   font-size: 11pt;
+}
+.Texto_recibos {
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+   font-weight: 500;
+}
+.Texto_recibos {
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+   font-weight: 500;
+}
+.label_archivos_certificacion {
+   width: 33.333%;
+   text-align: center;
+}
+.letras_archivos_adjuntos {
+   font-size: 14px;
+   width: 100%;
+   text-align: center;
+   height: 40px;
+   font-weight: 600;
+   font-family: 'Montserrat', sans-serif;
+   color: rgb(94, 93, 93);
+}
+.Espacio_div_entre_img_texto_certificacion {
+   text-align: center;
+   margin-top: 1%;
+}
+.texto_adjuntar_documentos_tipos {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   align-content: center;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 500;
+   color: #939191;
+   margin-top: 25px;
+   margin-bottom: 0px;
+}
+.boton.siguiente_a_paso_2 {
+   transform: translateX(3px);
+   cursor: pointer;
+   width: 18%;
+   border-radius: 20px;
+   font-weight: 300;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+}
+   .verificacion_de_datos_certificacion{
+      display: none;
+   }
+   .estilos_transferencias_bancarias_div_configuracion_certificacion{
+      display: none;
+      width: 100%;
+      padding-top: 10px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      height: 473px;
+   }
+   .six.columns.form_registro.configuracion_usuario{
+      width: 65%;
+   }
+   .estilo_texto_span_datos_configuracion {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      color: black;
+      font-size: 11pt;
+  }
+   .six.columns.form_registro.configuracion_usuario.margin_perfil{
+      margin-bottom:3%;
+      margin-top: 3%;
+   }
+   .flex.linea{
+      border-bottom: solid 1px rgba(194, 189, 189,0.45);
+  }
+   .cuadro_archivos_certificacion{
+      display: none;
+      flex-direction: column;
+   }
+   .menu_sidevar_slider{
+      display:flex;
+      flex-direction: column;
+   }
+   .menu_sidevar_slider_nav{
+      order:1;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+   }
+   .Lista_ordenada_ol_menu_sidevar_slider_nav{
+      width: 100%;
+   }
+    .Formulario_datos_configuracion{
+        min-width: 840px;
+        height:496px;
+        border-radius: 10px;
+        border-width: 1px;
+        margin-left:25%; 
+        transform: translateX(23%);
+        display: flex;
+        box-sizing: border-box;
+        padding-left:11%;
+        padding-right:11%;
+        padding-top:9%;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+     }
+     .caja_imagen_perfil{
+        width: 40%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        height:300px;
+    }
+     .texto_Datos_de_la_cuenta{
+        font-family: 'Montserrat', sans-serif;
+        font-weight:400;
+        font-size:19pt; 
+        color:rgb(87, 84, 84); 
+        margin-bottom:40px;
+     }
+     .imagen_configuracion{
+        width:70%;
+        height:80px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        order:2;
+    }
+     .correo_confi_img{
+        width:35px;
+        height: 35px;
+       transform: translateY(-5px);
+    }
+    .engranage_img{
+        width:46px;
+        height:46px;
+    }
+    .Texto_configuracion{
+       font-family: 'Montserrat', sans-serif;
+       font-weight:400;
+       font-size:20pt; 
+       color:rgb(102, 102, 102); 
+       margin-left:10px;
+    }
+    .six.columns.form_registro.configuracion_usuario{
+        display: flex;
+        justify-content: start;
+    }
+    .input_datos{
+        font-family: 'Montserrat', sans-serif;
+        font-weight:500;
+        border-top:none;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        margin-bottom: 0%;
+        padding-bottom:0px;
+        background: none;
+        width: 90%;
+        margin-bottom: 3px;
+        transform: translateY(3px);
+        margin-left:3px;
+        color:rgb(100, 100, 100);
+        font-size: 14px;
+        text-overflow: ellipsis;
+     }
+     .contenedor_label_Estado_y_Ciudad_configuracion{
+        display: flex;
+        margin-top: 30px;
+    }
+    .texto_Datos_de_la_cuenta.tienda{
+        display:none;
+     }
+     .Caja_Datos{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        height:340px;
+    }
+    .flex.label_nombre_contacto_configuracion_tienda{
+        display:none;
+        width: 60%;
+    }
+    .flex.edit.nombre_contacto_configuracion_tienda{
+       display:none;
+    }
+    .ciudad_label.label_nombre_contacto_configuracion_tienda{
+       display:none;
+    }
+    .boton_flex{
+        display:none;
+        width:100%;
+    }
+    .flex.label_nombre_contacto_configuracion_tienda{
+        display:none;
+        width: 60%;
+    }
+    .caja_contenedora_slider_low{
+        width:100%;
+        height:140px;
+        display:flex;
+        align-items: center;
+    }
+    .Lista_ordenada_ol_menu_sidevar_slider_nav_perfil_usuario{
+        height:90px;
+        width:100%;
+        margin-bottom: 0px;
+        display:flex;
+        justify-content: flex-end;
+        padding-right: 18%;
+    }
+    .slider_perfil_usuario{
+        display:flex;
+        width:100%;
+    }
+    .boton.boton_flex.siguiente_editar{
+      width:18%;
+      border-radius:20px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:300;
+      height: 27px;
+      justify-content: center;
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+  }
+    .container.img_loaded{
+        padding-right:0%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+     }
+     #configuracion_nav{
+        justify-content: center;
+        margin-left:0%;
+        width:75%;
+    }
+    .menu_sidevar_slider{
+        margin-top:20px;
+        height: 120px;
+        display: flex; 
+        justify-content: center;
+       align-items: center;
+       align-content: center;
+     }
+     /* css Certificación */
+     .Espacio_texto_certificacion_configuracion{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 50px;
+     }
+     .Texto_certificacion_configuracion{
+      font-family: 'Montserrat', sans-serif;
+      font-weight:500;
+      font-size:13pt; 
+      color:rgb(102, 102, 102);
+      display:flex;
+      align-items: center;
+      justify-content: center;
+     }
+     .Planes_de_certificacion{
+      width: 40%;
+      border-radius: 7px;
+      display: flex;
+      flex-direction: column;
+      height: 70%;
+     }
+     .Contenedor_principal_Modo_columna_de_texto_certificacion_y_Planes_de_certificacion_Configuracion{
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+     }
+     .Contenedor_Principal_de_los_planes_de_certificacion_configuracion{
+      display: flex;
+      place-content: center flex-start;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+     }
+     .contenedor_especificaciones_individuales_planes_de_certificacion{
+      display: flex;
+      justify-content: center;
+      width: 100%;
+      height: 30%
+     }
+     .texto_plan_certificacion{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-family: 'Montserrat', sans-serif;
+         font-weight:500;
+         color:rgb(86, 80, 80);
+         font-size:10pt;
+         text-align: center;
+     }
+     .estilos_texto_sencillo_gratis_Configuracion{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: 'Montserrat', sans-serif;
+        font-weight:600;
+        color:rgb(255, 255, 255);
+        font-size:12pt;
+        text-align: center;
+     }
+     .estilos_texto_gratis_Configuracion{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:600;
+      color:rgb(86, 80, 80);
+      font-size:14pt;
+      text-align: center;
+   }
+   .estilos_texto_90_dias_Configuracion{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight:500;
+      color:rgb(86, 80, 80);
+      font-size:10pt;
+      text-align: center;
+   }
+     #botton_certificarme_nivel_gratis_configuracion{
+        background: rgb(17, 204, 199);
+        padding: 0px 0px 0px 0px; 
+     }
+     #botton_certificarme_nivel_estandar_configuracion{
+      background: #29E28C;
+     }
+     #botton_certificarme_nivel_premium_configuracion{
+      background: #FCA15E;
+     }
+     .contenedor_check_list{
+        background: rgba(224, 223, 223, 0.4);
+         width:98.8%;
+         height: 11.1%;
+         justify-content: center;
+         align-items: center;
+         display: flex;
+     }
+     .contenedor_especificaciones_individuales_planes_de_certificacion{
+        background: rgba(224, 223, 223, 0.4);
+     }
+     .numeros_aplicaciones_certificacion{
+         font-size: 15px;
+     }
+     .boton_certificarme_configuracion{
+         width: 100%;
+         border:none;
+         border-bottom-left-radius: 5px;
+         border-bottom-right-radius: 5px;
+         height:100%;
+         font-family: 'Montserrat', sans-serif;
+         font-weight:600;
+         color:rgb(255, 255, 255);
+     }
+     .list_confirmacion{
+      width:25px;
+      height:25px;
+      font-size:22px;
+      color:#1EaF44;
+      font-weight: 700;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+     .circulo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        border-top: 3px solid rgb(27, 148, 49);
+        border-right: 3px solid rgb(27, 148, 49);
+        border-bottom: 3px solid rgb(27, 148, 49);
+        border-left: 3px solid rgb(27, 148, 49);
+     }
+     .circulo_rojo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 20px;
+        height: 20px;
+        border-radius: 100%;
+        border-top: 3px solid rgb(255, 0, 0);
+        border-right: 3px solid rgb(255, 0, 0);
+        border-bottom: 3px solid rgb(255, 0, 0);
+        border-left: 3px solid rgb(255, 0, 0);
+     }
+     .list_confirmacion_X{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:25px;
+        height:25px;
+        font-size:22px;
+        font-weight: 700;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:rgb(232, 70, 59);
+     }
+     .Espacio_entre_cada_plantilla{
+         width:2%;
+         height:90%;
+     }
+     #contenedor_span_texto{
+         border-top-right-radius: 5px;
+         border-top-left-radius: 5px;
+     }
+     #id_contenedor_span_Gratis_configuracion{
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        padding-top: 4px; 
+     }
+     #contenedor_span_texto_estandar{
+        border-top-right-radius: 5px;
+         border-top-left-radius: 5px; 
+     }
+     #id_contenedor_span_Estandar_configuracion{
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        padding-top: 4px;
+     }
+     #contenedor_span_texto_premium{
+        border-top-right-radius: 5px;
+        border-top-left-radius: 5px;
+     }
+     #id_contenedor_span_premium_configuracion{
+        border-top-right-radius: 4px;
+        border-top-left-radius: 4px;
+        padding-top: 4px;
+     }
+     #id_contenedor_especificaciones_individuales_planes_de_certificacion{
+         background: white;
+     }
+     #id_contenedor_especificaciones_individuales_planes_de_certificacion_2{
+         background:white;
+     }
+     #id_contenedor_especificaciones_individuales_planes_de_certificacion_4{
+         background: white;
+     }
+     #id_contenedor_de_check_list_configuracion{
+        background: white;  
+     }
+     #id_contenedor_2{
+        background: white; 
+     }
+     #id_contenedor_4{
+        background: white; 
+     }
+     #id_contenedor_8{
+        background: white;  
+     }
+     #id_contenedor_9{
+        background: white;  
+     }
+     #id_contenedor_10{
+        background: white;  
+     }
+    #id_contenedor_11{
+        background: white;  
+    }
+    .cuadro_contenedor_de_texto_planes_certificacion_configuracion{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30%;
+    background: rgb(238, 146, 19);
+    }
+    #id_Planes_de_certificacion{
+        box-shadow: 2px 4px 2px 2px rgba(0, 0, 0, 0.1);
+    }
+    /*.Contenedor_principal_nivel_gratis_configuracion{
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+    }*/
+    .contenedor_box_shadow{
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    }
+    .Ventana_formularios{
+        width:100%;
+        display:flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        box-sizing: border-box;
+    }
+     .spam_slider_perfil_usuario{
+        min-width: 110px;
+        height: 39px;
+        background: rgb(241, 147, 1);
+        margin-top: 13%;
+        border-radius:20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+     }
+     .texto_descripcion{
+        margin-bottom: 1%;
+        font-size: 18px;
+    }
+    .estilos_li_menu_perfil_usuario{
+      display: flex;
+      align-items: flex-end;
+   }
+   .spam_slider_perfil_usuario {
+      width: 100%;
+      height: 27px;
+      border-radius: 20px;
+      height: 27px;
+      box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+      background: rgb(241, 147, 1);
+      margin-top: 13%;
+      border-radius: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+  }
+ #boton_atras_datos_tienda_configuracion{
+    display: none;
+ }
+#avatar{
+   height: 300px;
+   width: 300px;
+   border-radius:20px;
+}
+#li_boton_editar{
+   display:none;
+}
+#contenedor_span_texto{
+   width: 90%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: rgb(17, 204, 199);
+ }
+ #id_contenedor_span_Gratis_configuracion{
+   width: 100%;
+   height: 11%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  
+ }
+ #contenedor_span_texto_estandar{
+   width: 90%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #79E28C;
+ }
+ #id_contenedor_span_Estandar_configuracion{
+   width: 100%;
+   height: 11%;
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom: solid 2px rgba(224,223,223,0.4);
+ }
+ #contenedor_span_texto_premium{
+   width: 90%;
+   height: 80%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background: #FCA15E;
+ }
+ #id_contenedor_span_premium_configuracion{
+   width: 100%;
+   height: 11%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-bottom: solid 2px rgba(224,223,223,0.4);
+ }
+ .boton_atras_datos_empresa{
+   width: 100%;
+   height: 20px;
+   display: flex;
+   justify-content: flex-start;
+   padding-left: 10px;
+   transform: translateY(15px);
+ }
+ .estilos_datos_de_ubicacion{
+   display:none;
+    flex-direction: column;
+    height: 496px;
+    width: 840px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin-left: 25%;
+    transform: translateX(23%);
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 11%;
+    padding-right: 11%;
+    padding-top: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+    margin-bottom: 150px;
+}
+.estilos_mapa_ubicacon{
+   display:none;
+   flex-direction: column;
+   height: 496px;
+   width: 840px;
+   border-radius: 10px;
+   border-width: 1px;
+   transform: translateX(220px);
+   box-sizing: border-box;
+   padding-left: 4%;
+   padding-right: 4%;
+   padding-top: 4%;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+   margin-bottom: 150px;
+}
+.boton_editar{
+   border-radius: 20px;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+   background: rgb(241, 147, 1);
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+   width: 19%;
+ }
+ .contenedor_boton_siguiente_al_mapa{
+   width: 100%;
+   height: 70px;
+   display: flex;
+   justify-content: center;
+   align-items:flex-end;
+}
+.boton_editar{
+   border-radius: 20px;
+   height: 27px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+   background: rgb(241, 147, 1);
+   border-radius: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 18px;
+   width:100%;
+ }
+ .boton_guardar_cambios_datos_del_perfil{
+   border: none;
+   border-radius: 20px;
+   height: 27px;
+   width: 15%;
+   font-size: 18px;
+   box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+   background: rgb(241, 147, 1);
+   color: white;
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 300;
+   cursor: pointer;
+ }
+ .form1 label.flex {
+   display: flex;
+   flex-direction: column;
+   justify-content:space-around;
+   align-items: flex-start;
+   margin-bottom:0px; 
+}
+.boton_guardar_datos_empresa{
+   width: 100%;
+   height: 70px;
+   display: flex;
+   justify-content: space-around;
+   align-items:flex-end;
+ }
+ .span_boton_siguiente{
+   width: 100%;
+   cursor: pointer;
+   border-radius: 20px;
+   height: 20px;
+   display: flex;
+   justify-content:flex-end;
+   align-items: center;
+   font-size: 18px;
+ }
+ .texto_boton_guardar_cambios_datos_empresas_configuracion{
+   font-family: 'Montserrat', sans-serif;
+   color:rgb(255, 255, 255);
+   font-size: 18px;
+   font-weight: 400;
+}
+.six.columns.form_registro.configuracion_usuario.datos_perfil{
+   margin-top: 1px;
+}
+.six.columns.form_registro.configuracion_usuario.margin_perfil.datos_perfil{
+  margin-top: 3px;
+}
+.boton_siguiente_datos_empresa{
+   width: 100%;
+   height: 20px;
+   display: flex;
+   justify-content: flex-end;
+}
+ .editar.editar.input_paso_1{
+   border: none;
+   background: white;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 16px;
+   color: #939191;
+   font-weight: 500;
+   padding:0px;
+   height:20px;
+ }
+ .div_contenedor_boton_siguiente_que_direcciona_al_mapa{
+   width: 100%;
+   height:25px;
+   display: flex;
+   justify-content: flex-end;
+   transform: translateY(35px);
+}
+#camposubcategoria_certificacion{
+   height:25px;
+}
+#subcategoria_certificacion{
+   height:25px;
+ }
+ .ciudad_label{
+   height:25px;
+ }
+ #ciudad_certificacion{
+   height:25px;
+ }
+ #estado_certificacion{
+   height:25px;
+ }
+ #boton_editar_configuracion{
+   padding:0px;
+   height: 25px;
+   border-bottom:none;
+}
+.Formulario_datos_configuracion.descripcion{
+   display: none;
+ }
+ .estilos_boton_atras_Datos_empresa{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+   color: #939191;
+   font-weight: 500;
+   display: flex;
+   align-items: flex-end;
+   height: 23px;
+   cursor: pointer;
+ }
+ .contenedor_boton_atras_a_datos_de_empresa{
+    display: flex;
+ }
+ .estilo_boton{
+   width:25%;
+}
+.input_datos.usuario{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 400;
+   text-overflow: ellipsis;
+ }
+ ::placeholder { color: rgb(192, 192, 194); }
+}

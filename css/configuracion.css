@@ -1,0 +1,74 @@
+.boton_configuracion{
+    margin-bottom: 10px;
+}
+#configuracion{
+    margin-bottom: 10px;
+}
+.boton_configuracion:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+#configuracion{
+    font-size: 30px;
+}
+
+#datos_contacto{
+    margin-top: 10px;
+    color:rgb(241,147,0);
+}
+
+#mi_contacto_boton{
+    margin-top:40px;
+}
+#cambio_imagen_contacto{
+    margin-top: 40px;
+}
+#cambio_imagen_tienda{
+    margin-top: 40px;
+}
+
+#mi_perfil_boton{
+    margin-top: 40px;
+}
+#la_tienda_botonn{
+    margin-top: 40px;
+    display: none;
+    flex-direction: column;
+    padding-left: 10%;
+    box-sizing: border-box;
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+}
+
+.boton_submit_configuracion {
+  border: 1px solid #F99615;
+ background-color:#F99615;
+  text-align:center
+  font-size:18px;
+  font-weight:bolder;
+  color:white;
+  line-height: 18px;
+  padding: 3px 5px 3px;
+  outline: medium none;
+  width: 30%;
+  height: 30px;
+margin-top: 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box; /*Firefox 1-3*/
+  -webkit-box-sizing: border-box; /* Safari */
+}
+.boton_submit_configuracion:hover {
+ background-color: rgb(240, 140, 16);
+ cursor: pointer;
+}
+@media (max-width: 1024px) {
+#la_tienda_botonn{
+
+    padding-left: 0%;
+
+}
+  }

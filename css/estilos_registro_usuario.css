@@ -1,0 +1,94 @@
+.content_registro_usuario{
+   border-radius:20px;
+   border-width:1px;
+   align-items: center;
+   justify-content:center;
+   width:25%; 
+   display: flex;
+   border: none;
+   margin: auto;
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+   align-items: center;
+   box-sizing: border-box;
+}
+.texto_registro_usuario{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: rgb(87, 87, 86);
+    text-transform: none;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+}
+.Texto_registrar_modo_gris {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: rgba(82, 80, 80,0.89);
+}
+
+.form label input.estilo_input_registro_usuario{
+    font-size: 14px;
+}
+.estilo_parrafo_haciendo_click_registro_usuario{
+    margin-top: 10px;
+    display:flex;
+    justify-content:center;
+    font-size: 11px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.condiciones.acepto{
+    font-size: 13px;
+    text-decoration: none;
+    padding-top:10px;
+}
+.form input.boton.crear_contacto{
+    width: 70%;
+    border-radius: 20px;
+    height: 31px;
+    font-size: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(177, 177, 177, .6);
+}
+.form label.terminoscondiciones.terminoscondiciones.label{
+    min-height: 30px;
+}
+.form_registro_de.registro{
+    height: 51px;
+}
+@media (min-width:1024px) and (max-width: 1800px) {
+    .content_registro_usuario{
+        min-width: 377.5px;
+    }
+}
+
+@media (min-width:800px) and (max-width: 1023px) {
+    .content_registro_usuario{
+       min-width:420px;
+    }
+    .btns.estilo_responsive{
+        width: 50%;
+    }
+    .parrafo{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+@media (min-width:400px) and (max-width:799px) {
+    .content_registro_usuario{
+       min-width:420px;
+    }
+    .btns.estilo_responsive{
+        width: 50%;
+    }
+    .parrafo{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    #pasos_registro{
+        display: none;
+    }
+}

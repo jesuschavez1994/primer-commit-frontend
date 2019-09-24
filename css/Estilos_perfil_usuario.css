@@ -1,0 +1,194 @@
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.contenedor_de_cuadros_perfil_usuario{
+    display: flex;
+    justify-content: center;
+}
+.contenedor_datos_perfil_usuario_y_imagen_de_usuario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contenedor_50_50_entre_datos_de_perfil_y_imagen{
+    display:flex;
+    width:100%;
+    justify-content: space-around;
+}
+.datos_de_perfil_usuario{
+    width:50%;
+    height:340px;
+}
+.imagen_perfil_usuario{
+    width:50%;
+    height:340px;
+}
+.input_datos.usuario_perfil{
+    font-size:16px;
+    border-bottom:none;
+    padding:0px;
+    height:18px;
+    margin-bottom:0px;
+    border:none;
+    font-size: 16px;
+}
+.input_datos_de_perfil_usuario{
+    border:none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    color: #939191;
+}
+.Formulario_datos_configuracion.contraseña{
+    display:none;
+}
+.boton_guardar_cambios_datos_del_perfil_usuario{
+    border: none;
+    height: 27px; 
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+    background:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+}
+.boton_guardar_cambios_datos_del_perfil_usuario:hover{
+    color:rgb(241, 147, 1);
+    border-bottom:solid 1px rgb(241, 147, 1);
+}
+
+.flex.linea.tamaño_label{
+    height: 51px;
+}
+.contenedor_input_datos_perfil_usuario{
+    display:flex;
+    width: 100%;
+    justify-content:space-between;
+    height: 100%;
+}
+/* Mensajeria */
+.contenedor_principal_mensajeria{
+    width: 100%;
+    height: 512px;
+    display: none;
+    justify-content: center;
+}
+.contenedor_proporcional_de_mensajeria{
+    width: 80.6666667%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.estilos_de_mensajeria{
+    min-height: 400px;
+    display: block;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 10px;
+    min-width:820px;
+}
+.contenedor_principal_empresas_mensajeria_perfil_usuario{
+    width: 25%;
+    height:100%;
+    float: left;
+    box-sizing: border-box;
+}
+.contenedor_chat_mensajeria{
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    height:100%;
+    border-left: 1px solid #dedede;
+    border-right: 1px solid #dedede;
+}
+.contenedor_texto_empresa_mensajeria{
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dedede;
+}
+.texto_empresas_mensajeria_perfil_usuario{
+    font-size: 13pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+}
+.mydiv{
+    width: 100%;
+    height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #dedede;
+}
+.mis_stock{
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+.contenedor_buscador_mensajeria{
+    width:100%;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buscador_de_empresas_dentro_de_la_mensajeria_perfil_usuario{
+    width: 93%;
+    border-radius: 10px;
+    height: 26px;
+    border:none;
+    background: rgb(237,237,237);
+    padding-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500;
+    color: rgb(128, 128, 128);
+}
+.contentedor_div_mensajeria{
+    width: 100%;
+    height: 70%;
+}
+.contenedor_de_area_de_texto_mensajeria_perfil_usuario{
+    width: 88%;
+    height: 60px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area_texto_mensajera{
+    width: 95%;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(237,237,237);
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+::placeholder { color: rgb(192, 192, 194); }
+.area_texto_y_send{
+    display: flex;
+    align-items: center;
+}
+.contenedor_input_buscador_y_lupa{
+    width: 85%;
+    height: 26px;
+    display: flex;
+    background: rgb(237,237,237);
+    border-radius: 9px;
+}
+.estilo_selec_cedula{
+    border: solid 1px rgba(139, 139, 139,0.3);
+}
+.loader_img{
+    display: none;
+}
+@media (min-width:600px) and (max-width: 1024px) {
+    .Formulario_datos_configuracion.contraseña{
+        display:none;
+    }  
+}

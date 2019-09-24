@@ -1,0 +1,69 @@
+.modal-content.Estilos_editar_imagen{
+    width:35%;
+    overflow-y:hidden;
+    border-radius:20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.4);
+    margin-top:auto;
+    margin-bottom:auto;
+    height:440px;
+    display: flex; 
+}
+
+.Estilos_editar_imagen_contenido{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:300px;  
+}
+
+.estilos_formulario_editar_imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.estilo_titulo_editar_imagen{
+    font-size:20pt;
+    text-align: center;
+    color: rgb(87, 87, 86);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+.Contenedor_de_imagenes{
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    width: 100%;
+}
+.grid_2_5imagenes.estilo{
+    height:82.58px;
+}
+
+
+/* Media Query*/
+
+/* Telefono */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .modal-content.Estilos_editar_imagen{
+        width:74%;
+    }
+    .estilo_titulo_editar_imagen{
+        font-size:26pt;
+    }
+    .Estilos_editar_imagen_contenido{
+        height: 400px
+    }
+    .Contenedor_de_imagenes{
+        width: 100%;
+    }
+    .texto_boton_imagen2{
+        font-size: 24px;
+        width: 29%;
+    }
+    .close2{
+        font-size: 37px;
+    }
+}
+

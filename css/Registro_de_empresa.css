@@ -1,0 +1,335 @@
+
+#loader_registro {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid rgb(240,146,7);
+    width: 120px;
+    height: 120px;
+    -webkit-animation: spin 5s linear infinite; /* Safari */
+    animation: spin 0.5s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+div #Estilo_registro_contacto{
+    display:flex;
+    flex-direction: column;
+    border:none;
+    border-radius:20px;
+    border-width:1px;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3),0 6px 20px 0 rgba(0,0,0,0.29);
+    align-items: center;
+    box-sizing: border-box;
+    transform: translateY(-10%);
+}
+#Estilo_form_registro{
+    display: flex;
+    flex-direction: row;
+}
+#tienda_label_nombre_empresa{
+    height:30px;
+    min-height: 1px;
+    width: 100%; 
+}
+#categoria_label_categoria{
+    height:30px;
+    min-height: 1px; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
+    
+}
+#subcategoria_label_categoria{
+    height:30px;
+    min-height: 1px;  
+}
+#estado_label_estado{
+    height:30px;
+    min-height: 1px;  
+     
+}
+#ciudad_label_ciudad{
+    height:30px;
+    min-height: 1px;  
+}
+#btns_registrar{
+    position:relative;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 50px; 
+    display:flex;
+    flex-direction: column;  
+    height: 60px; 
+    transform: translateY(5%);
+}
+.input_acepto_texinos{
+    display: flex;
+}
+
+div #tiendafor{
+margin-top:0;
+flex-direction:column;
+}
+/* Estilos_registro_de_empresa*/
+.form1 .tienda_label .Estilo_nombre_registro_de_empresa{
+    font-family: 'Montserrat', sans-serif; 
+     width:80%;
+     font-weight:lighter; 
+     font-size:14px;
+     border-bottom: solid; 
+     border-width: 1px; 
+     border-color: rgb(177, 177, 177, .6);
+     padding-left:6%;
+     color:rgb(104, 104, 103);
+   /*  text-align: center;*/
+}
+.form1 .estilos_selec_registro_de_empresa_categoria{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter; 
+    font-size:14px;
+    border-bottom: solid; 
+    border-width: 1px;
+    border-color: rgb(177, 177, 177, .6);
+   
+}
+.form1 .estilos_selec_registro_de_empresa_subcategoria{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter; 
+    font-size:14px; 
+    border-bottom: solid; 
+    border-width: 1px; 
+    border-color: rgb(177, 177, 177, .6);
+}
+.form1 .estilos_selec_registro_de_empresa_estado{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter; 
+    font-size:14px; 
+    border-bottom: solid; 
+    border-width: 1px; 
+    border-color: rgb(177, 177, 177, .6);
+}
+.form1 .estilos_selec_registro_de_empresa_ciudad{
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter; 
+    font-size:14px;
+    border-bottom: solid; 
+    border-width: 1px; 
+    border-color: rgb(177, 177, 177, .6);
+}
+.estilos_option_registro_de_empresa_categoria{
+     background:white;
+     color:rgb(104, 104, 103); 
+     font-family: 'Montserrat', sans-serif; 
+     font-weight:lighter;    
+}
+.estilos_ption_registro_de_empresa_subcategoria{
+    background:white; 
+    color:rgb(104, 104, 103);
+    font-family: 'Montserrat', sans-serif;
+    font-weight:lighter;
+}
+.estilos_option_registro_de_empresa_estado{
+    background:white;
+    color:rgb(104, 104, 103);
+}
+.estilos_option_registro_de_empresa_ciudad{
+    background:#F99615; 
+    color:#FFF;
+}
+.form1 .boton.estilos_boton_registrar_empresa{
+    border-radius:20px; 
+    height: 31px; 
+    font-size:17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:500; 
+    border-bottom: solid; 
+    border-width: 1px;
+     border-color: rgb(177, 177, 177, .6);
+     transform: translateY(40%);
+     
+}
+.form1 select{
+    font-size: 20px;
+}
+.ten.columns.estilo_registro_de_contacto_media_query{
+    width: 100%;
+}
+
+/* Media Query*/
+
+/* Telefono */
+@media (min-width: 601px) and (max-width: 767px) {
+    #Estilo_registro_contacto{
+        width:390px;   
+           height:70%;
+        overflow: auto;
+    }
+   
+.Estilos_al_hacer_click_terminos_y_condiciones {
+    transform: translateY(70%);
+}
+#btns_registrar{
+    transform: translateY(40%);
+}
+    .two.columns.panel1.estilos_flotar_a_la_derecha{
+        transform: translateX(300px);
+        display: flex;
+        justify-content:start;
+        align-items: center; 
+    }
+}
+@media (min-width: 90px) and (max-width:600px) {
+    #Estilo_registro_contacto{
+        width:390px;   
+        height:70%;
+        overflow: auto;
+    }
+   
+    .Estilos_al_hacer_click_terminos_y_condiciones {
+        transform: translateY(70%);
+    }
+    #btns_registrar{
+        transform: translateY(40%);
+    }
+    .two.columns.panel1.estilos_flotar_a_la_derecha{
+        transform: translateX(370px);
+        display: flex;
+        justify-content:start;
+        align-items: center;  
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    #Estilo_registro_contacto{
+        min-width:410.91px;
+        height:70%;
+        overflow: auto;
+    }
+    
+   
+    .Estilos_al_hacer_click_terminos_y_condiciones {
+        transform: translateY(55%);
+    }
+    #btns_registrar{
+        transform: translateY(8%);
+    }
+    #categoria_label_categoria {
+        height: 30px;
+        min-height: 1px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: normal;
+    }
+    #tiendafor{
+        height: 420px;
+    }
+    .two.columns.panel1.estilos_flotar_a_la_derecha{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 65%; 
+    }
+    .div_ayuda_panel_de_registro h4 a{
+        font-size: 28px;
+    }
+    /*  Estilos Registro de empresa*/
+    .ten.columns.estilo_registro_de_contacto_media_query{
+        margin-top: 5%;
+     } 
+     .form1.estilos_formulario_registro_de_empresa{
+        height:410px;
+     }
+     .form1 .tienda_label .Estilo_nombre_registro_de_empresa{
+         font-size: 15px;
+         padding-left:3%;
+     }
+     .twelve.columns.form_registro{
+         height: 25px;
+     }
+     .form1 .estilos_selec_registro_de_empresa_categoria{
+         font-size: 15px;
+     }
+     .form1 .estilos_selec_registro_de_empresa_subcategoria{
+        font-size: 15px;
+     }
+     .form1 .estilos_selec_registro_de_empresa_estado{
+        font-size: 15px; 
+     }
+     .form1 .estilos_selec_registro_de_empresa_ciudad{
+        font-size: 15px; 
+     }
+     #btns_registrar{
+         margin-top: 20%;
+     }
+     .form1 .boton.estilos_boton_registrar_empresa{
+        height: 37px; 
+        font-size:18px;
+     }  
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    #Estilo_registro_contacto{
+        width:38%;
+        height:70%;
+        overflow: auto;
+    }
+    .div_ayuda_panel_de_registro h4 a{
+        font-size: 22px;
+    } 
+    .form label input.Ingresa_usuario {
+        font-size: 15px;
+    } 
+    .form label input.Ingresa_correo#correo {
+        font-size: 15px;
+    }
+    .form label input.Ingresa_Telefono {
+        font-size: 15px;
+    }
+    .form label input.Ingresa_contraseña {
+        font-size: 15px;
+    }
+    .form label input.Repita_contraseña {
+        font-size: 15px;
+    }
+    .twelve .columns{
+        height:40px;
+    }
+    #contactofor {
+        margin-top: 0px;
+        transform: translateY(-16%);
+    }
+    #caja_Registro_contacto {
+        width: 400px;
+        margin-top: 0px;
+    }
+    #caja_Registro_contacto {
+        width: 400px;
+        margin-top: 0px;
+    }
+    #boton_siguiente {
+        border-radius: 20px;
+        width: 110px;
+        height: 30px;
+        font-size: 19px;
+        margin-top: 120px;
+    }
+}
+
+
+@media (min-width:1025px)  {
+    #Estilo_registro_contacto{
+        width:27%;
+        height:70%;
+        overflow:auto;
+    }
+    
+}

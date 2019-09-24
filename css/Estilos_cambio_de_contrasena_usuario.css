@@ -1,0 +1,97 @@
+.modal-content.estilos_cambio_contrasena_usuario{
+    width:41%;
+    height: 310px;
+    display: flex;
+    padding: 0px;
+    overflow-y:hidden;
+    min-height: 0px;
+    border-radius:20px;;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.contenedor_cambio_contrasena_usuario{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    min-height: 1px;
+    width: 100%;
+}
+.Cuadro_Con_elementos_cambio_contrasena{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+}
+
+.edit.estilos_formulario_cambio_contrasena_usuario{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top:10px;
+    width:80%;
+    height: 100%;
+    transform: translateY(-50px);
+}
+
+.Estilos_texto_cambio_contrasena_usuario{
+    text-align: center;
+    color: rgb(87, 87, 86);
+    font-size: 20pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-shadow: rgba(0, 0, 0, 0.28) 2px 2px 4px;
+}
+
+.boton_submit.estilos_boton_enviar {
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.125);
+    border-radius: 20px;
+    width: 30%;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 15pt;
+}
+.contenedor_texto_h3_cambio_contraseña{
+    width: 100%;
+    height: auto;
+  
+}
+.estilo_input_ingrese_su_contrasña{
+    font-family: 'Montserrat', sans-serif; 
+    font-weight:500;
+    font-size: 16px;
+    text-align: center;
+    color: #939191;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width:100%;
+}
+.divformulario.contaseña{
+    display:flex;
+    justify-content: center;
+}
+.contenedor_iput_ingrese_contraseña{
+    width: 100%;
+}
+.divformulario.boton_enviar_contraseña{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    transform: translateY(110px);
+}
+.Formulario_datos_configuracion.contraseña{
+    display:none;
+}
+@media (min-width:800px)and (max-width:1024px){
+    .divformulario.boton_enviar_contraseña{
+        display: flex;
+        justify-content: center;
+        margin-top: 0px;
+        transform: translateY(50px);
+    }
+
+}

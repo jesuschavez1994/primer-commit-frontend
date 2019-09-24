@@ -1,0 +1,120 @@
+/* Estilos Windows Eliminar productos: Jesus Chavez */
+
+.bottom_eliminar_producto_boton{
+    font-size: 20pt;
+    width:100%;
+    height:30px;
+    color: rgb(243, 146, 0);
+    background: none;
+    border:none;
+     
+    font-family: 'Montserrat',sans-serif;
+    font-weight: lighter; 
+}
+
+.bottom_eliminar_producto_boton:hover{
+    cursor: pointer;
+    color: rgb(15, 15, 15);
+}
+
+.container_12 .container_12_Eliminar_productos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-align: center;
+    color: rgb(87, 87, 86);
+    font-size: 14pt;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1); 
+  
+
+}
+
+.separation_bottom{
+    width: 20%;
+    height:40px; 
+    display:flex;
+    justify-content: center;
+}
+.separation_bottom .Linea_Vertical_SI_NO{
+    width: 1px;
+    height:35px; 
+    background: rgb(87, 87, 86);
+}
+
+.modal-content.modal-content_estilos_eliminar_producto{
+    overflow-y:hidden;
+    height:180px;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    margin-top:auto;
+    margin-bottom:auto;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.29);
+    border-radius:20px;
+    width:20%;
+    min-height:1px;
+}
+.contenedor_eliminar_producto{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.edit.estilos_formulario_eliminar_producto{
+    transform:translateY(30%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+}
+.divformulario.botoneras{
+    display: flex;
+    flex-direction: row;
+}
+
+.caja_si{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.contenedor_radio.caja_si_label{
+    padding-left:0px;
+    margin-bottom:0px;
+}
+.caja_no{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end; 
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .modal-content.modal-content_estilos_eliminar_producto{
+        width: 50%;
+        height: 200px;
+    }
+    .container_12 .container_12_Eliminar_productos{
+        font-size: 20pt;
+        line-height: 1.1;
+    }
+    .contenedor_radio.caja_si_label{
+        height: 30px;
+    }
+    .bottom_eliminar_producto_boton{
+        font-size: 30pt;
+    }
+    .separation_bottom .Linea_Vertical_SI_NO{
+        margin-top:10px;
+    }
+    .close2{
+        transform: translateY(30%);
+        font-size: 40px;
+        
+    }
+}
+
+@media (min-width:1025px) and (max-width: 1600px) {
+    .modal-content.contenedor_estyle{
+        width: 30%;
+        height: 200px;
+    }
+}
+

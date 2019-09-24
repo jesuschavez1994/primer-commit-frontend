@@ -1,0 +1,169 @@
+.modal-content.modal-content_estilos_editar_producto_principal{
+    padding-top:30px;
+    border-radius:20px;
+    display: flex;
+    margin-top:auto;
+     margin-bottom:auto;
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.4);
+}
+.div_close_prioridad{
+    z-index:1000;
+}
+.div_tamaño_contenedor_eliminar_producto_1{
+    height:350px;
+}
+.div_tamaño_contenedor_eliminar_producto_2{
+   height:340px;
+   display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container_12.div_tamaño_contenedor_eliminar_producto_3{
+    height:374px;
+}
+.estilos_Titulo_editar_producto{
+    z-index:1; 
+    font-size: 20pt;
+    text-align: center;
+    color: rgb(87, 87, 86);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0,0.5);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    text-transform: none;
+}
+.edit.estilos_formulario_editar_producto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.editar.estilos_de_texto_nombre_de_producto{
+    font-weight:bold;
+}
+.editar.estilos_de_texto_precio_de_producto{
+    font-weight:bold;
+}
+.divformulario_edit.estilo_divformulario{
+    display: flex;
+    flex-direction: row;
+}
+.estilos_producto_disponible_si_no{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.estilos_producto_servicio{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.divformulario_edit.divformulario_contenedor_de_texto_descripcion_formulario_de_texto_y_boton{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+.Estilos_de_texto_descripcion{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:normal;
+}
+.boton_submit.estilos_boton_editar{
+   font-family: 'Montserrat', sans-serif;
+   font-weight:lighter;
+   font-size:17px;
+   border-radius:20px;
+   height:30px;
+}
+
+.divformulario_edit{
+    margin-top: 15px;
+    float: left;
+    width: 57%;
+    min-height: 1px;
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+@media (min-width: 90px) and (max-width: 767px) {
+    .edit textarea{
+        height:350px;
+        font-size:14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .modal-content.modal-content_estilos_editar_producto_principal{
+        width:70%;
+        height: 770px;
+    }  
+    .div_tamaño_contenedor_eliminar_producto_1{
+        height:650px;
+        
+    }
+    .div_tamaño_contenedor_eliminar_producto_2{
+        height:630px;
+        
+    }
+    .container_12.div_tamaño_contenedor_eliminar_producto_3{
+        height:630px;
+        margin-top:10%;
+    }
+    .edit.estilos_formulario_editar_producto{
+        height:610px; 
+        margin-top:4%;
+    }
+    .estilos_Titulo_editar_producto{
+        font-size: 26pt;
+    }
+    .divformulario_edit{
+       
+    }
+    .close2{
+        font-size: 55px;
+    }
+    .estilos_nombre_editar_producto{
+        font-size:22px;
+    }
+    
+    .edit input.editar{
+        margin-top:5%;
+        font-size: 16px;
+
+    }
+    .contenedor_radio{
+        font-size:18px;
+    }
+    .Estilos_de_texto_descripcion{
+        font-size:26px;
+    }
+    .divformulario_edit.divformulario_contenedor_de_texto_descripcion_formulario_de_texto_y_boton{
+        margin-top: 3%;
+    }
+    .boton_submit.estilos_boton_editar{
+        font-size:29px;
+        height:60px;
+    }
+    .edit textarea{
+        height:350px;
+        font-size:20px;
+    }
+    .divformulario_edit.estilo_divformulario{
+        margin-top:5%;
+    }
+    .divformulario_edit.estilos_de_margen{
+        margin-top: 6%;
+    }
+    .divformulario_edit.estilos_margen_nombre{
+        margin-top: 5%;
+    }
+}
+
+
+@media (min-width:1025px) {
+    .modal-content.modal-content_estilos_editar_producto_principal{
+        width: 35%;
+        height: 550px;
+    }
+    
+}

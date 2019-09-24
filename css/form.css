@@ -1,0 +1,946 @@
+/****Form****/
+.tooltiptext {
+  visibility: hidden;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px 15px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+#form {
+	padding-top: 2px;
+}
+
+#form1 {
+	padding-top: 2px;
+}
+
+#contactofor {
+	display:block;
+}
+#tiendafor {
+	display:none;
+}
+
+.foundussimgtexto{ width:60; height:30; bottom:0;}
+.existe{ 
+	color: white;
+	font-size: 11px;
+	line-height:14px;
+	z-index: 1;
+}
+.tooltiptext {
+  visibility: hidden;
+
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 15px 15px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.camp{ 
+	color: #FF0000;
+	margin-left:0px;
+	font-size: 11px;
+	line-height:14px;
+	float:left;
+	width:100%;
+}
+#form input {
+	border:none;
+	border-bottom: solid ;
+	border-width: 1px;
+	border-color: rgb(100,100,100);
+	font-size:18px;
+	color:rgb(100,100,100);
+	line-height: 16px;
+	padding: 7px 18px 8px;
+	width: 100%;
+	height: 39px;
+	float:left;
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.form input {
+	border:none;
+	border-bottom: solid ;
+	border-width:1px;
+	border-color: rgb(150,150,150);
+	font-size:16px;
+	color:rgb(100,100,100);
+	line-height: 18px;
+	padding: 7px 18px 8px;
+	width: 100%;
+	height: 39px;
+	float:left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+
+}
+.form label input {
+	text-align: center;
+	border:none;
+	border-bottom: solid ;
+	border-width:1px;
+	border-color: rgb(150,150,150,0.3);
+	font-size:16px;
+	color:rgb(100,100,100);
+	line-height: 18px;
+	padding: 7px 18px 8px;
+	width: 80%;
+	height: 35px;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.condiciones {
+	font-size:16px;
+	color:rgb(100,100,100);
+	line-height: 18px;
+	padding: 7px 1px 8px;
+	text-decoration: underline;
+	height: 39px;
+	float:left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+#tiendafor{
+
+	margin-top: 100px;
+
+
+}
+.form1 label.flex {	
+	display: flex;
+	flex-direction: column;
+	 justify-content: center;
+  align-items: flex-start;
+}
+.form1 div.flex {	
+	display: flex;
+	flex-direction: column;
+	 justify-content: center;
+  align-items: flex-start;
+}
+.form1 div.flex.para_derecha {
+
+    align-items: flex-end;
+}
+.form_registro {
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.form_registro_de {
+	display: flex;
+	height: 100px;
+	justify-content: center;
+  	align-items: center;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+.naranja{
+	color:white;
+	background-color: #F99615;
+	height: 30px;
+	font-size: 20px;
+}
+
+.form_registro label {
+width: 100%;
+box-sizing: border-box;
+-moz-box-sizing: border-box; /*Firefox 1-3*/
+-webkit-box-sizing: border-box; /* Safari */
+}
+
+.form1 input {
+	font-size:16px;
+	line-height: 18px;
+	width: 80%;
+	float:left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.form1 .tienda_label input{
+ justify-content: center;
+ border:none;
+	border-bottom: solid ;
+	border-width:1px;
+	border-color: rgb(150,150,150);
+	font-size:16px;
+	color:rgb(100,100,100);
+	line-height: 18px;
+	padding: 7px 18px 8px;
+	width: 40%;
+	height: 39px;
+	float:left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.edit input.editar  {
+	border:none;
+	border-bottom: 1px solid rgb(178, 178, 178);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	background: white;
+	font-size:13px;
+	color:#676767;
+	line-height: 4px;
+	padding-bottom:2px;
+	outline: medium none;
+	width:100% ;
+	height:25px;
+	float:left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+.menu_rapido_perfil .edit input.editar  {
+	border: 1px solid rgb(198, 198, 198);
+	border-bottom: 1px solid rgb(198, 198, 198);
+	border-bottom-right-radius:14px;
+	border-bottom-left-radius:14px;
+	border-top-left-radius: 14px;
+	border-top-right-radius: 14px;
+	background: white;
+	font-size:11px;
+	/*background:rgb(198, 198, 198,0.25); */
+	color:rgb(128, 128, 128);
+	line-height: 4px;
+	padding: 0px 18px 0px;
+	outline: medium none;
+	width:92% ;
+	height: 25px;
+	float:left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.edit input.editaradio  {
+	border: 1px solid #F99615;
+	border-radius:19px;
+	background: none;
+	font-size:11px;
+	color:#676767;
+	line-height: 4px;
+	padding: 7px 18px 8px;
+	outline: medium none;
+	background: url(../images/form_Bg.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 60%, #F99615);
+	width: 15%;
+	height: 25px;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+#numero {
+	border: 1px solid #F99615;
+	border-radius:19px;
+	background: none;
+	font-size:13px;
+	font-weight:bold;
+	
+	color:#000;
+	line-height: 18px;
+	padding: 7px 18px 8px;
+	outline: medium none;
+	background: url(../images/form_Bg.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 60%, #F99615);
+	width: 45px;
+	height: 39px;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+.form1 select {
+	height: 39px;
+    padding: 7px 18px 8px;
+	border:none;
+	border-bottom: solid ;
+	border-width:1px;
+	border-color: rgb(177, 177, 177, .6);
+	font-size:14px;
+	color:rgb(100,100,100);
+	line-height: 18px;
+	width: 80%;
+	float:left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+  -moz-appearance: none;
+ 	-webkit-appearance: none;
+ 	appearance: none;
+}
+
+.edit select {
+	border-radius:5px;
+	font-size:16px;
+	color:#676767;
+	line-height: 18px;
+	padding: 1px 18px 1px;
+	margin-top:3px;
+	width: 60%;
+	height: 27px;
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: white;
+  background-position: 95% center;
+  border: 1px solid #F99615;
+  -moz-appearance: none;
+ 	-webkit-appearance: none;
+ 	appearance: none;
+}
+
+
+select:focus{ outline: none;}
+.form1 select:hover { 
+	background-color: rgb(235, 232, 232); 
+}
+#categoria option{
+
+background: white;
+	
+}
+#subcategoria option{
+	background: white;
+	font-size: 15px;
+}
+#estado_registro option{
+	background: white;
+}
+#id_ciudad option{
+	background: white;
+}
+
+#categoria option:hover{
+	background:#999;
+}
+
+#categoria option:visited{
+	background:#000;
+	 
+}
+
+
+
+
+
+
+
+.form input.boton {
+    border: 1px solid #F99615;
+    background-color: #F99615;
+		text-align: center;
+	  font-size:18px;
+    font-weight: bolder;
+    color: white;
+    line-height: 18px;
+    padding: 3px 5px 3px;
+    outline: medium none;
+    width: 50%;
+    height: 39px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		border-radius:5px;
+}
+
+
+.edit input.boton {
+		border: 1px solid #F99615;
+		border-radius: 20px;
+    background-color: #F99615;
+		text-align: center;
+	  font-size:18px;
+		font-family: 'Montserrat', sans-serif;
+		font-weight:lighter;
+    color: white;
+    line-height: 18px;
+    padding: 3px 5px 3px;
+    outline: medium none;
+    width: 34%;
+		height: 28px;
+		transform:translateX(94%);
+		
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		border-radius:5px;
+}
+
+.form1 input.boton {
+   border: 1px solid #F99615;
+    background-color: #F99615;
+		text-align: center;
+		 font-size:18px;
+    font-weight: bolder;
+    color: white;
+    line-height: 18px;
+    padding: 3px 5px 3px;
+    outline: medium none;
+    width: 50%;
+    height: 39px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		border-radius:5px;
+}
+
+
+.form textarea {
+	border: 1px solid  #F99615;
+	border-radius:19px;
+	background: url(../images/form_Bg.png.) 0 0 repeat;
+	font-size:13px;
+	color:#676767;
+	height: 110px;
+	outline: medium none;
+	overflow: auto;
+	padding: 10px 18px 8px;
+	width: 100%;
+	position: relative;
+	resize:none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+	float:left;
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	
+}
+.edit textarea {
+	border: 1px solid  rgb(245,245,245);
+	font-family: 'Montserrat', sans-serif;
+	font-weight:400;
+	background-color: rgb(242,242,242);
+	font-size:14px;
+	color:#676767;
+	height: 150px;
+	outline: medium none;
+	overflow: auto;
+	padding: 8px 8px 5px;
+	width: 90%;
+	position: relative;
+	resize:none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+	float:left;
+	margin-top:6px;
+	
+	
+}
+
+#form label {
+	position:relative;
+	display: block;
+	min-height: 59px;
+
+	width: 100%;
+	float: left;
+	clear: left;
+}
+.form label {
+	position:relative;
+	display: flex;
+ justify-content: center;
+  align-items: center;
+	min-height: 59px;
+width: 100%;
+	
+	float: left;
+	clear: left;
+}
+.campocorreo{
+position: absolute;
+}
+.form label.terminoscondiciones{
+	position:relative;
+	display: flex;
+ justify-content: flex-end;
+  align-items: center;
+	min-height: 59px;
+
+	
+	float: right;
+	clear: right;
+}
+.form1 label {
+	position:relative;
+	min-height: 59px;
+    width: 100%;	
+	float: left;
+	clear: left;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form1 label.tienda_label {
+ justify-content: center;
+ display:flex;
+}
+#form.contact .error, #form.contact .empty {
+	top: 7px;
+}
+
+#form1.contact .error, #form1.contact .empty {
+	top: 7px;
+}
+#form .error-empty {
+	/*display:none;
+	float:left;*/
+}
+.btns input.btn {
+   margin: 0 0 0 20px !important;
+   cursor: pointer;
+}
+
+#form .message {
+	/*width: 462px;*/
+	width:100%;
+	margin-top: -1px;
+}
+
+#form1 .message {
+	/*width: 462px;*/
+	width:100%;
+	margin-top: -1px;
+}
+
+
+.message br {
+	height: 0;
+	line-height: 0;
+}
+
+#form .success {
+	border: 1px solid #dddddd;
+	display: none;
+	position: absolute;
+	width: 302px;
+	background: #fff;
+	text-align: center;
+	padding: 20px 10px;
+	z-index: 999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+#form1 .success {
+	border: 1px solid #dddddd;
+	display: none;
+	position: absolute;
+	width: 302px;
+	background: #fff;
+	text-align: center;
+	padding: 20px 10px;
+	z-index: 999;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+
+
+
+.success_wrapper {
+	position: relative;	
+}
+
+@media only screen and (max-width: 995px) {
+
+#form {
+	padding-top: 0;	
+}
+
+#form1 {
+	padding-top: 0;	
+}
+
+
+#form label {
+	float: none !important;	
+	width: 100%;
+	width: 100% !important;
+}
+
+#form1 label {
+	float: none !important;	
+	width: 100%;
+	width: 100% !important;
+}
+
+/*#form label.message {
+	width: 100% !important;
+}*/
+
+#form .success {
+	width: 100%;
+}
+#form1 .success {
+	width: 100%;
+}
+
+.btns {
+	padding-right: 0;
+}
+
+
+}
+
+
+@media (max-width: 1024px) {
+	.existe{ 
+	color: white;
+	font-size: 19px;
+	line-height:20px;
+	z-index: 1;
+}
+	.naranja{
+
+
+height: 50px;
+font-size: 25px;
+}
+	.form1 .tienda_label input{
+	
+ justify-content: center;
+ border:none;
+	border-bottom: solid ;
+	border-width:1px;
+	border-color: rgb(150,150,150);
+	font-size:26px;
+	color:rgb(100,100,100);
+	line-height: 18px;
+	padding: 7px 18px 8px;
+	
+	width: 80%;
+	height: 50px;
+	float:left;
+
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+}
+.form1 select {
+	border:none;
+	border-bottom: solid ;
+	border-width:1px;
+	border-color: rgb(150,150,150);
+	font-size:16px;
+	color:rgb(100,100,100);
+	line-height: 18px;
+	padding: 7px 18px 8px;
+	width: 80%;
+	height: 50px;
+	float:left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+  -moz-appearance: none;
+ 	-webkit-appearance: none;
+ 	appearance: none;
+}
+.form label input {
+	font-size:16px;
+	color:rgb(100,100,100);
+	line-height: 26px;
+	padding: 7px 18px 8px;
+	width: 80%;
+	
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /*Firefox 1-3*/
+	-webkit-box-sizing: border-box; /* Safari */
+	
+}
+.form label.terminoscondiciones{
+	position:relative;
+	display: flex;
+ justify-content: center;
+  align-items: center;
+	min-height: 59px;
+	float: right;
+	clear: right;
+}
+.form label.email{
+
+	 justify-content: center;
+}
+
+.form label.clave.repetir{
+
+	 justify-content: center;
+}
+.btns {
+	position:relative;
+	display: flex;
+	 justify-content: center;
+  align-items: center;
+width: 100%
+}
+.form1 label {
+
+ justify-content: center;
+  align-items: center;
+
+}
+.form1 label.subcategoria_label {
+	
+ justify-content: center;
+ 
+}
+.form1 label.ciudad_label {
+	
+ justify-content: center;
+ 
+}
+.form1 label.tienda_label {
+	
+ justify-content: center;
+ 
+}
+}
+
+@media only screen and (max-width: 767px) {
+  .map {
+	margin-bottom: 25px;
+}
+  .btns {
+		padding-bottom: 0;  
+  }
+  
+  #form textarea {
+		height: 300px !important;  
+  }
+  #form1 textarea {
+		height: 300px !important;  
+  }
+  
+}
+@media only screen and (max-width: 479px) {
+ 
+  #form textarea {
+		height: 200px !important;  
+  }
+	#form1 textarea {
+		height: 200px !important;  
+  }
+}
+@media (max-width: 1024px) {
+	
+element.style {
+}
+input[type=text], textarea {
+    outline: none;
+}
+.form1 input {
+    border: none;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(150,150,150);
+    font-size: 32px;
+    color: rgb(100,100,100);
+    line-height: 32px;
+    padding: 7px 18px 8px;
+    width: 80%;
+    height: 50px;
+    float: left;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+#verificacion_datos_certificacion p {
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: 500;
+}
+.form1 select {
+	border: none;
+	border-bottom: solid;
+	border-width: 1px;
+	border-color: rgb(150,150,150);
+	font-size: 20px;
+	color: rgb(100,100,100);
+	line-height: 32px;
+	padding: 7px 18px 8px;
+	width: 80%;
+	height: 50px;
+	float: left;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.edit textarea {
+	
+	border: 1px solid rgb(245,245,245);
+	background-color: rgb(242,242,242);
+	font-size: 17px;
+	line-height: 32px;
+	color: #676767;
+	height: 150px;
+	outline: medium none;
+	overflow: auto;
+	padding: 8px 8px 5px;
+	width: 100%;
+	position: relative;
+	resize: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	float: left;
+	margin-top: 6px;
+}
+	 }
+	
+	 .twelve.columns.form_registro_de.estilos_click{
+		 display: flex;
+		 flex-direction: column;
+		 padding-top:5%;
+		 padding-left: 10%;
+		 padding-right: 10%;
+		 
+	 }
+	 .Haciendo_click_en_Registrar.centrar{
+		 text-align: center;
+		 letter-spacing:0.7px;;
+	 }
+	 .Haciendo_click_en_Registrar.centrar .Texto_registrar_modo_gris{
+		font-family: 'Montserrat', sans-serif;
+		font-weight:bold;
+		color: rgba(82, 80, 80,0.89);
+	 }
+
+	 .Haciendo_click_en_Registrar{
+		 font-size:11px;
+		 font-family: 'Montserrat', sans-serif;
+		 font-weight:400;
+		 color: rgb(0, 0, 0);
+		 line-height: 1.3;
+		 text-align: center;
+		 transform: translateY(10px);
+	 }
+
+	 @media(min-width:1025px){
+		#correo_registro{
+			border-width:1px;
+			border-color: rgba(150,150,150,0.3);	
+			font-size:14px;
+		}
+		.Haciendo_click_en_Registrar{
+			font-size:11px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight:400;
+			color: rgb(0, 0, 0);
+			line-height: 1.3;
+			text-align: center;
+			transform: translateY(45px);
+		}
+	 }
+	 @media(min-width:90px) and (max-width:600px){
+		.Haciendo_click_en_Registrar{
+			font-size:11px;
+			font-family: 'Montserrat', sans-serif;
+			font-weight:400;
+			color: rgb(0, 0, 0);
+			line-height: 1.3;
+			text-align: center;
+			transform: translateY(0px);
+		}
+		.form label input.Ingresa_usuario {
+			text-align: center;
+			border: none;
+			border-bottom: solid;
+			border-width: 1px;
+			border-color: rgb(177, 177, 177, .5);
+			font-size: 15px;
+			color: rgb(100,100,100);
+			line-height: 18px;
+			padding: 7px 18px 8px;
+			width: 80%;
+			height: 30px;
+			box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			-webkit-box-sizing: border-box;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: normal;
+		}
+		#correo_registro{
+			font-size: 15px;
+			border-width: 1px;
+			border-color: rgb(177, 177, 177, .5);
+			height:30px;
+		}
+	}
+	 	#mySidenavmensajeria_buzon{
+			font-size: 12pt;
+			font-family: 'Montserrat', sans-serif;
+			font-weight: 400;
+			color:rgb(100,100,100)
+	 	}
+	

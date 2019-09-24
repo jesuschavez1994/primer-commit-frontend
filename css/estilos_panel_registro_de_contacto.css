@@ -1,0 +1,186 @@
+.Estilos_panel_de_registro_principal{
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    z-index: 4;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    z-index: 4;
+    background: rgba(226,226,226,1);
+    background: -moz-linear-gradient(top, rgba(226,226,226,1) 14%, rgba(226,226,226,1) 15%, rgba(238,238,238,1) 50%, rgba(254,254,254,1) 94%, rgba(254,254,254,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(14%, rgba(226,226,226,1)), color-stop(15%, rgba(226,226,226,1)), color-stop(50%, rgba(238,238,238,1)), color-stop(94%, rgba(254,254,254,1)), color-stop(100%, rgba(254,254,254,1)));
+    background: -webkit-linear-gradient(top, rgba(226,226,226,1) 14%, rgba(226,226,226,1) 15%, rgba(238,238,238,1) 50%, rgba(254,254,254,1) 94%, rgba(254,254,254,1) 100%);
+    background: -o-linear-gradient(top, rgba(226,226,226,1) 14%, rgba(226,226,226,1) 15%, rgba(238,238,238,1) 50%, rgba(254,254,254,1) 94%, rgba(254,254,254,1) 100%);
+    background: -ms-linear-gradient(top, rgba(226,226,226,1) 14%, rgba(226,226,226,1) 15%, rgba(238,238,238,1) 50%, rgba(254,254,254,1) 94%, rgba(254,254,254,1) 100%);
+    background: linear-gradient(to bottom, rgba(226,226,226,1) 14%, rgba(226,226,226,1) 15%, rgba(238,238,238,1) 50%, rgba(254,254,254,1) 94%, rgba(254,254,254,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
+
+}
+.Estilos_Registrate_ingresa{
+    width: 15.33333333333%;
+    height: 30px;
+}
+.estilos_ayuda_registro_de_contacto{
+    text-decoration: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size:18px;
+    float:left;
+    color:rgb(117, 116, 116); 
+}
+
+
+@media(min-width:90px) and (max-width:699px){
+    .modal-content.windows_ayuda{
+        border-radius: 20px;
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        max-width:410px;
+        display: flex; 
+        min-height:1px;
+    }
+    .texto_necesitas_ayuda{
+        text-align: center;
+        font-family:'Montserrat',sans-serif;
+        font-weight: normal;    
+        color: rgb(87, 87, 86);
+        font-size:18pt;    
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+    .contenedor_de_necesitas_ayuda_registro_de_contacto{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        min-height:1px;
+    }
+    .edit.estilo_formulario_ayuda{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .editar.clase_ingrese_su_correo{
+        text-align: center;
+        font-family:'Montserrat',sans-serif;
+        font-weight: normal;
+        color:rgb(100,100,100);
+        font-size:14px;
+    }
+    .editar.clase_asunto_ayuda{
+        text-align: center;
+        font-family:'Montserrat',sans-serif;
+        font-weight: normal;
+        color:rgb(100,100,100);
+        font-size:14px;
+    }
+    
+    .boton.boton_ayuda{
+        width:40%;
+        margin-top: 20px;
+        border-radius: 20px;
+       
+    }
+}
+@media(min-width:700px) and (max-width:1023px){
+    .modal-content.windows_ayuda{
+        border-radius: 20px;
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     
+        max-width:410px;
+        display: flex; 
+        min-height:1px;
+    }
+    .texto_necesitas_ayuda{
+        text-align: center;
+        font-family:'Montserrat',sans-serif;
+        font-weight: normal;    
+        color: rgb(87, 87, 86);
+        font-size:18pt;    
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+    .contenedor_de_necesitas_ayuda_registro_de_contacto{
+        display: flex; 
+        flex-direction: column;
+        justify-content: center; 
+        align-items: center; 
+        min-height:1px;
+    }
+    .edit.estilo_formulario_ayuda{
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .editar.clase_ingrese_su_correo{
+        text-align: center;
+        font-family:'Montserrat',sans-serif;
+        font-weight: normal;
+        color:rgb(100,100,100);
+        font-size:14px;
+    }
+    .editar.clase_asunto_ayuda{
+        text-align: center;
+        font-family:'Montserrat',sans-serif;
+        font-weight: normal;
+        color:rgb(100,100,100);
+        font-size:14px;
+    }
+    
+    .boton.boton_ayuda{
+        width:40%;
+        margin-top: 20px;
+        border-radius: 20px;
+       
+    }
+}
+@media(min-width:1024px) and (max-width:1900px){
+.modal-content.windows_ayuda{
+    border-radius: 20px;
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2),
+     0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width:445px;
+    display: flex; 
+    min-height:1px;
+}
+.texto_necesitas_ayuda{
+    text-align: center;
+    font-family:'Montserrat',sans-serif;
+    font-weight: normal;    
+    color: rgb(87, 87, 86);
+    font-size:18pt;    
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.contenedor_de_necesitas_ayuda_registro_de_contacto{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    min-height:1px;
+}
+.edit.estilo_formulario_ayuda{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.editar.clase_ingrese_su_correo{
+    text-align: center;
+    font-family:'Montserrat',sans-serif;
+    font-weight: normal;
+    color:rgb(100,100,100);
+    font-size:14px;
+}
+.editar.clase_asunto_ayuda{
+    text-align: center;
+    font-family:'Montserrat',sans-serif;
+    font-weight: normal;
+    color:rgb(100,100,100);
+    font-size:14px;
+}
+
+.boton.boton_ayuda{
+    width:40%;
+    margin-top: 20px;
+    border-radius: 20px;
+   
+}
+}
